@@ -2,10 +2,10 @@ import puppeteer from 'puppeteer';
 import fs from 'fs';
 import path from 'path';
 
-const url = "https://auctions.leonardjoel.com.au/custom_asp/searchresults.asp?st=D&ps=150&pg=1&sale_no=LJ8773#40868504";
+const url = "https://www.aasd.com.au/catalogue/250318gim-autumn-art-online/";
 
 const browser = await puppeteer.launch({
-    headless: true,
+    headless: false,
 });
 
 const page = await browser.newPage();
@@ -47,95 +47,96 @@ const emptyLinksFile = () => {
     }
 };
 
-const fetchAuctionLinksFromPage = async (page) => {
-    // Wait for the main selector containing the auction items
-    await page.waitForSelector('section.auction-collection-item');
-
-    // Get item URLs from the current page
-    return await page.evaluate(() => {
-        const items = Array.from(
-            document.querySelectorAll('section.auction-collection-item')
-        );
-
-        return items
-            .map(item => {
-                const listing = item.querySelector(
-                    'a:nth-child(2)'
-                )?.href;
-
-                return listing
-            })
-    });
-};
-
-const processAuctionLinks = async (links) => {
-    const provInfos = [];
+const processAuctionItems = async () => {
+   
     
-    for (const link of links) {
-        console.log(`Processing URL: ${link.url}`);
-        await page.goto(link.url, { timeout: 0 });
-        
-        await page.waitForSelector('.p1'); // Wait for the page to load
+    await page.waitForSelector('table')
 
-        // Extract the content and push it to the array
-        const info = await page.evaluate(() => {
+    const info = await page.evaluate(() => {
+        const provInfos = [];
+        const allInfo = [...document.querySelectorAll('tr')].slice(1)
 
-            const allText = document.querySelector('.flexible-text-container > div > div:nth-child(2) > section').innerHTML.split('<br>').map(text => {
-                return new DOMParser().parseFromString(text, 'text/html').body.textContent.trim()
-            });
+        for (const item of allInfo) {
+            const lotNum = Number(item.querySelector('td').innerHTML)
 
-            const lotStringLength = document.querySelector('.p1').innerHTML.trim().split(" ").length
-            const lotNum = document.querySelector('.p1').innerHTML.trim().split(" ")[lotStringLength - 1]
+            const artistTemp = item.querySelector('td:nth-child(3) > a').innerText.split(',')
+            const artist = (artistTemp[1].trim() + ' ' + artistTemp[0].trim()).trim()
 
-            const estimateText = document.querySelector('.flexible-text-container > div > div:nth-child(2) > section:nth-child(2) > p').innerHTML.substring(8).trim().split('-').map(price => price.trim())
-            const estimateTextLow = estimateText[0]
-            const estimateTextHigh = estimateText[1]
+            const artwork_name = item.querySelector('td:nth-child(3) > h3').innerText
+
+            const arbText = item.querySelector('td:nth-child(3)').innerText.split('\n')[2].split(',')
+            const size = arbText[arbText.length - 1]
+
+            let medium = ""
+            let signage = ""
+            let bFound = false
+            let i = 0
+            let indexOfOn = -1
+            while (bFound === false && i < arbText.length) {
+
+                if(arbText[i].includes(' on ')) {
+                    bFound = true
+                    indexOfOn = i
+                }
+                i++
+            }
             
-            
-            // const priceText = document.querySelector('.flexible-text-container > div > div:nth-child(2) > section:nth-child(3)').innerHTML.trim().substring(11).split('<')[0].trim()
-            
-            // const provElement = document.querySelector('div.accordion:has(input#section1) > .accordion-content');
-            // const provenance = provElement ? new DOMParser().parseFromString(provElement.innerHTML, 'text/html') : null;
-            // const provText = provenance ? provenance.body.textContent.trim() : null;
+            if(bFound === false) {
+                medium = arbText[0]
+                if(arbText.length > 2) {
+                    for(let i = 1; i < arbText.length - 1; i++){
+                        signage = signage + ' ' + arbText[i]
+                    }
+                } 
+            }else if(bFound === true && indexOfOn === 0) {
+                medium = arbText[0]
+                if(arbText.length > 2) {
+                    for(let i = 1; i < arbText.length - 1; i++){
+                        signage = signage + ' ' + arbText[i]
+                    }
+                }
+            }else if(bFound === true && indexOfOn > 0 && !arbText[indexOfOn - 1].includes('/')) {
+                for(let i = 0; i <= indexOfOn; i++) {
+                    medium = medium + ' ' + arbText[i]
+                }
+                if(arbText.length > 2) {
+                    for(let u = indexOfOn + 1; u < arbText.length - 1; u++){
+                        signage = signage + ' ' + arbText[u]
+                    }
+                }
+            }else if(bFound === true && indexOfOn > 0 && arbText[indexOfOn - 1].includes('/')) {
+                for(let i = 0; i < indexOfOn - 1; i++) {
+                    medium = medium + ' ' + arbText[i]
+                }
+                if(arbText.length > 2) {
+                    for(let u = indexOfOn - 1; u < arbText.length - 1; u++){
+                        signage = signage + ' ' + arbText[u]
+                    }
+                }
+            }
 
-            // const exhibElement = document.querySelector('div.accordion:has(input#section4) > .accordion-content');
-            // const exhibition = exhibElement ? new DOMParser().parseFromString(exhibElement.innerHTML, 'text/html') : null;
-            // const exhibText = exhibition ? exhibition.body.textContent.trim() : null;
-
-
+            const price = item.querySelector('td:nth-child(4)').innerText
 
             const infoObject = {
                 lot: lotNum,
-                title: allText[1],
-                artist: allText[0],
-                medium: allText[2],
-                signage: allText.filter((signageItem, index) => {
-                    if((index > 2) && (index < (allText.length - 2))) {
-                        return signageItem
-                    }
-                }).join(","),
-                size: allText[allText.length - 2],
-                // size: allText[allText.length - 3],
-                // provenance: provText,
-                // exhibition_history: exhibText,
-                estimateLow: estimateTextLow,
-                estimateHigh: estimateTextHigh,
-                // price: priceText,
+                title: artwork_name,
+                artist: artist,
+                medium: medium.trim(),
+                signage: signage.trim(),
+                size: size.trim(),
+                price: price,
             }
-            return infoObject
-        });
-
-        provInfos.push(info); // Push the extracted content into the array
-    }
-    return provInfos; // Return the array after processing all links
+            provInfos.push(infoObject)
+        }
+        return provInfos
+    })
+    return info
 };
 
 
 const init = async () => {
     const allAuctionLinks = []; // Collect all item links in this array
     const allItemInfo = [];
-    let auctionDate = '';
-
     
         await page.goto(url,{timeout: 0});
 
@@ -158,14 +159,6 @@ const init = async () => {
             res.push(url);
         }
 
-        await page.waitForSelector('.row.flex-end.child-row')
-        const getAuctionDate = await page.evaluate(() => {
-            const auctiondate = document.querySelector('.row.flex-end.child-row > section > p:has(br)').innerHTML.split('<br>')[1].trim().split(',')[0]
-
-            return auctiondate
-        });
-        auctionDate = getAuctionDate
-
         // Fetch items from each page in the auction
         for (const [pageIndex, pageUrl] of res.entries()) {
             console.log(
@@ -173,53 +166,24 @@ const init = async () => {
             );
             await page.goto(pageUrl,{timeout: 0});
 
-            const auction_items = await fetchAuctionLinksFromPage(page);
+            const auction_items = await processAuctionItems();
 
             // Append item links to the list with additional metadata
             allAuctionLinks.push(
-                ...auction_items.map((item, index) => ({
-                    url: item,
-                    page: pageIndex + 1,
-                    order: index + 1,
+                ...auction_items.map(item => ({
+                    item
                 }))
             );
         }
 
-    // Save all item links to a JSON file
-    let jsonFilePath = './auction-items-links.json';
-    fs.writeFileSync(jsonFilePath, JSON.stringify(allAuctionLinks, null, 2));
-    console.log('All links saved to auction-items-links.json');
+    // jsonFilePath = './auction-items-info.json';
+    // fs.writeFileSync(jsonFilePath, JSON.stringify(allAuctionLinks, null, 2));
+    // console.log('All info saved to auction-items-info.json');
 
-    // Go into each URL link from the JSON file
-    const savedLinks = JSON.parse(fs.readFileSync(jsonFilePath, 'utf-8'));
-    const itemInfos = await processAuctionLinks(savedLinks);
-
-    allItemInfo.push(
-        ...itemInfos.map((item, index) => ({
-            lot: item.lot,
-            title: item.title,
-            artist: item.artist,
-            medium: item.medium,
-            signage: item.signage,
-            size: item.size,
-            // provenance: item.provenance,
-            // exhibition_history: item.exhibition_history,
-            // auction_date: auctionDate,
-            low_estimated_value: item.estimateLow,
-            high_estimated_value: item.estimateHigh,
-            // auction_price: item.price,
-            // auction_house: 'Leonard Joel',
-            order: index + 1,
-        }))
-    );
-
-    jsonFilePath = './auction-items-info.json';
-    fs.writeFileSync(jsonFilePath, JSON.stringify(allItemInfo, null, 2));
-    console.log('All info saved to auction-items-info.json');
-
-    // Convert the JSON to CSV
-    const csvFilePath = path.resolve('./auction-items-info.csv');
-    convertJsonToCsv(jsonFilePath, csvFilePath);
+    // // Convert the JSON to CSV
+    // const csvFilePath = path.resolve('./auction-items-info.csv');
+    // convertJsonToCsv(jsonFilePath, csvFilePath);
+    console.log(allAuctionLinks)
     
     await browser.close();
 };
