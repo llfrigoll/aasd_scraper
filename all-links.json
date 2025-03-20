@@ -1,241 +1,1197 @@
 [
-  "https://www.aasd.com.au/catalogue/250318gim-autumn-art-online/",
-  "https://www.aasd.com.au/catalogue/250318jom-fine-art/",
-  "https://www.aasd.com.au/catalogue/250317brs-art-australian-and-international/",
-  "https://www.aasd.com.au/catalogue/250317clm-australian-and-international-decorative-arts-paintings-and-colle/",
-  "https://www.aasd.com.au/catalogue/250316las-contemporary-art/",
-  "https://www.aasd.com.au/catalogue/250315aas-traditional-antiques-jewellery-and-fine-art-art-lots-only/",
-  "https://www.aasd.com.au/catalogue/250311mkp-night-1-art-furniture-collectables-rugs-and-luxury-goods-art-lot/",
-  "https://www.aasd.com.au/catalogue/250311ras-fine-and-decorative-arts-art-lots-only/",
-  "https://www.aasd.com.au/catalogue/250311scd-antiques-decorator-and-fine-arts-showcase-art-lots-only/",
-  "https://www.aasd.com.au/catalogue/250310las-discovering-ethel-waddell-1865-1937/",
-  "https://www.aasd.com.au/catalogue/250310shs-a-nsw-art-collection-online/",
-  "https://www.aasd.com.au/catalogue/250309gfp-sunday-collectors-art-auction/",
-  "https://www.aasd.com.au/catalogue/250304jos-the-collectors-auction-the-lilian-rollason-collection-leonard-jo/",
-  "https://www.aasd.com.au/catalogue/250226bns-classic-interiors-including-the-cheong-family-collection/",
-  "https://www.aasd.com.au/catalogue/250225las-painting-the-land-a-melbourne-collection/",
-  "https://www.aasd.com.au/catalogue/250224las-radar-90-emerging-and-established-artists/",
-  "https://www.aasd.com.au/catalogue/250223las-australian-indigenous-art/",
-  "https://www.aasd.com.au/catalogue/250220las-fine-art/",
-  "https://www.aasd.com.au/catalogue/250218shs-a-corporate-collection-of-australian-and-international-art/",
-  "https://www.aasd.com.au/catalogue/250216las-contemporary-art/",
-  "https://www.aasd.com.au/catalogue/250213las-mid-century-art/",
-  "https://www.aasd.com.au/catalogue/250212jom-sidney-nolan-works-from-the-artists-studio/",
-  "https://www.aasd.com.au/catalogue/250212lam-fine-art-company-collection-melbourne/",
-  "https://www.aasd.com.au/catalogue/250211cvh-australian-international-fine-art/",
-  "https://www.aasd.com.au/catalogue/250211gim-prints-and-multiples/",
-  "https://www.aasd.com.au/catalogue/250203scd-contemporary-art-and-mid-century-design/",
-  "https://www.aasd.com.au/catalogue/250201dbs-australian-and-international-art/",
-  "https://www.aasd.com.au/catalogue/250127las-australian-indigenous-art/",
-  "https://www.aasd.com.au/catalogue/250124jom-the-art-salon-capsule-contemporary-collection/",
-  "https://www.aasd.com.au/catalogue/250116las-fine-art/",
-  "https://www.aasd.com.au/catalogue/250112las-contemporary-art/",
-  "https://www.aasd.com.au/catalogue/241219las-fine-art/",
-  "https://www.aasd.com.au/catalogue/241218las-australian-indigenous-art/",
-  "https://www.aasd.com.au/catalogue/241212las-other-australian-impressionists/",
-  "https://www.aasd.com.au/catalogue/241211jom-wolfgang-sievers-through-the-lens/",
-  "https://www.aasd.com.au/catalogue/241210las-fine-art-gold-coast-art-collection/",
-  "https://www.aasd.com.au/catalogue/241209brs-art-end-of-year-australian-and-international/",
-  "https://www.aasd.com.au/catalogue/241209jom-art-deco-design-a-collection-of-fine-furniture-and-objects-art-l/",
-  "https://www.aasd.com.au/catalogue/241209scd-showcase-auction-art-lots-only/",
-  "https://www.aasd.com.au/catalogue/241208clm-australian-and-historical-session-ii-art-lots-only/",
-  "https://www.aasd.com.au/catalogue/241208das-estate-and-collector/",
-  "https://www.aasd.com.au/catalogue/241208eld-important-australian-paintings/",
-  "https://www.aasd.com.au/catalogue/241207das-australian-and-international-art/",
-  "https://www.aasd.com.au/catalogue/241203bns-important-australian-art/",
-  "https://www.aasd.com.au/catalogue/241203gwh-fine-art-auction/",
-  "https://www.aasd.com.au/catalogue/241203lam-australian-abstract/",
-  "https://www.aasd.com.au/catalogue/241203mkp-art-collectables-and-furniture-art-lots-only/",
-  "https://www.aasd.com.au/catalogue/241202jos-the-art-collector/",
-  "https://www.aasd.com.au/catalogue/241127sss-important-australian-art/",
-  "https://www.aasd.com.au/catalogue/241126dhm-important-australian-international-fine-art/",
-  "https://www.aasd.com.au/catalogue/241126gfp-spring-2024-fine-art-auction/",
-  "https://www.aasd.com.au/catalogue/241126gim-spring-art-online/",
-  "https://www.aasd.com.au/catalogue/241125shs-australian-and-international-art/",
-  "https://www.aasd.com.au/catalogue/241124las-australian-indigenous-art/",
-  "https://www.aasd.com.au/catalogue/241121bnn-post-war-and-contemporary/",
-  "https://www.aasd.com.au/catalogue/241121las-fine-art/",
-  "https://www.aasd.com.au/catalogue/241120bnn-20-21st-century/",
-  "https://www.aasd.com.au/catalogue/241120mzm-important-australian-and-international-art/",
-  "https://www.aasd.com.au/catalogue/241119cvh-australian-and-international-fine-art/",
-  "https://www.aasd.com.au/catalogue/241116aas-australian-and-international-art/",
-  "https://www.aasd.com.au/catalogue/241113bns-chinese-paintings-and-asian-works-of-art/",
-  "https://www.aasd.com.au/catalogue/241113fam-australian-and-international-art/",
-  "https://www.aasd.com.au/catalogue/241113jom-prints-and-multiples/",
-  "https://www.aasd.com.au/catalogue/241113jos-the-online-collector/",
-  "https://www.aasd.com.au/catalogue/241112bnm-australian-art-online/",
-  "https://www.aasd.com.au/catalogue/241112ces-first-nations-fine-art-auction/",
-  "https://www.aasd.com.au/catalogue/241111jos-sidney-nolan-works-from-the-artists-studio/",
-  "https://www.aasd.com.au/catalogue/241111scd-contemporary-art-and-mid-century-design-art-lots-only/",
-  "https://www.aasd.com.au/catalogue/241110las-contemporary-art/",
-  "https://www.aasd.com.au/catalogue/241106lam-fine-art-company-collection/",
-  "https://www.aasd.com.au/catalogue/241028eld-rare-and-collectable-australian-paintings/",
-  "https://www.aasd.com.au/catalogue/241027gim-australian-and-international-art/",
-  "https://www.aasd.com.au/catalogue/241027las-indigenous-art/",
-  "https://www.aasd.com.au/catalogue/241023avm-the-collection-of-phillip-adams-part-i/",
-  "https://www.aasd.com.au/catalogue/241023las-art-design-art-lots-only/",
-  "https://www.aasd.com.au/catalogue/241022dhm-dh-online-modern-contemporary-fine-art/",
-  "https://www.aasd.com.au/catalogue/241022jom-fine-and-indigenous-art/",
-  "https://www.aasd.com.au/catalogue/241020clm-the-dr-jane-lennon-collection-art-lots-only/",
-  "https://www.aasd.com.au/catalogue/241017las-fine-art/",
-  "https://www.aasd.com.au/catalogue/241014brs-art-australian-and-international/",
-  "https://www.aasd.com.au/catalogue/241014scd-antiques-decorator-and-fine-arts-art-lots-only/",
-  "https://www.aasd.com.au/catalogue/241013das-estate-and-collector-pictures/",
-  "https://www.aasd.com.au/catalogue/241008las-early-20th-century-and-modernist-art/",
-  "https://www.aasd.com.au/catalogue/241005dbs-australian-and-international-fine-art/",
-  "https://www.aasd.com.au/catalogue/241002brs-fine-aboriginal-art/",
-  "https://www.aasd.com.au/catalogue/241001las-australian-art-1960s-to-today-by-lawsons/",
-  "https://www.aasd.com.au/catalogue/241001ras-fine-and-decorative-arts/",
-  "https://www.aasd.com.au/catalogue/240929las-collectors-edit-fine-art-editions-and-sculpture/",
-  "https://www.aasd.com.au/catalogue/240924gim-the-darryn-lyons-collection/",
-  "https://www.aasd.com.au/catalogue/240924gwh-fine-art/",
-  "https://www.aasd.com.au/catalogue/240924shs-art-and-objects-from-the-collection-of-ray-hughes/",
-  "https://www.aasd.com.au/catalogue/240923gim-interiors-private-collections-art-lots-only/",
-  "https://www.aasd.com.au/catalogue/240923jom-women-artists/",
-  "https://www.aasd.com.au/catalogue/240922las-australian-indigenous-art/",
-  "https://www.aasd.com.au/catalogue/240919las-fine-art/",
-  "https://www.aasd.com.au/catalogue/240917dhm-dandh-online-works-from-the-estate-of-john-barnes/",
-  "https://www.aasd.com.au/catalogue/240917jos-the-collectors-auction-art-lots-only/",
-  "https://www.aasd.com.au/catalogue/240916scd-showcase-auction-art-lots-only/",
-  "https://www.aasd.com.au/catalogue/240915las-contemporary-art/",
-  "https://www.aasd.com.au/catalogue/240910bns-important-australian-art/",
-  "https://www.aasd.com.au/catalogue/240910mkp-furniture-art-oriental-and-collectables-auction-art-lots-only/",
-  "https://www.aasd.com.au/catalogue/240908eld-important-australian-paintings/",
-  "https://www.aasd.com.au/catalogue/240901gim-the-winter-auction-series-part-i/",
-  "https://www.aasd.com.au/catalogue/240828dhm-important-australian-international-fine-art/",
-  "https://www.aasd.com.au/catalogue/240828mzs-prints-and-multiples-online/",
-  "https://www.aasd.com.au/catalogue/240827bns-the-morgan-collection/",
-  "https://www.aasd.com.au/catalogue/240827shs-australian-and-international-art/",
-  "https://www.aasd.com.au/catalogue/240826brs-art-and-interesting-objects-the-collection-of-the-late-ellen-mar/",
-  "https://www.aasd.com.au/catalogue/240825das-australian-and-international-art/",
-  "https://www.aasd.com.au/catalogue/240825las-australian-indigenous-art/",
-  "https://www.aasd.com.au/catalogue/240824aas-traditional-antiques-and-fine-art-art-lots-only/",
-  "https://www.aasd.com.au/catalogue/240822bns-australian-art/",
-  "https://www.aasd.com.au/catalogue/240821fam-the-simon-ryan-collection-part-i/",
-  "https://www.aasd.com.au/catalogue/240821sss-important-australian-art/",
-  "https://www.aasd.com.au/catalogue/240820gim-prints-and-multiples-featuring-selected-works-from-the-julian-bu/",
-  "https://www.aasd.com.au/catalogue/240818avs-the-keith-and-annette-bennett-collection-of-art-and-antiques-art/",
-  "https://www.aasd.com.au/catalogue/240818gfp-collectors-art-market/",
-  "https://www.aasd.com.au/catalogue/240815las-important-australian-art-featuring-the-collection-of-the-late-mg/",
-  "https://www.aasd.com.au/catalogue/240814jom-sidney-nolan-works-from-the-artists-studio/",
-  "https://www.aasd.com.au/catalogue/240814las-mid-century-art-private-collection/",
-  "https://www.aasd.com.au/catalogue/240806cvh-fine-art/",
-  "https://www.aasd.com.au/catalogue/240805jom-decorative-arts-art-lots-only/",
-  "https://www.aasd.com.au/catalogue/240730dhm-dh-online-modern-contemporary-indigenous-art/",
-  "https://www.aasd.com.au/catalogue/240730mkp-art-tribal-collectables-furniture-art-lots-only/",
-  "https://www.aasd.com.au/catalogue/240730smd-the-connoisseurs-collection-night-two-art-lots-only/",
-  "https://www.aasd.com.au/catalogue/240729brs-fine-aboriginal-art/",
-  "https://www.aasd.com.au/catalogue/240728brs-art-australian-and-international-online/",
-  "https://www.aasd.com.au/catalogue/240728las-indigenous-art/",
-  "https://www.aasd.com.au/catalogue/240728pcm-australian-and-european-investment-art/",
-  "https://www.aasd.com.au/catalogue/240724ssm-important-australian-art-from-the-estate-of-the-late-ron-walker/",
-  "https://www.aasd.com.au/catalogue/240723gim-winter-art-online/",
-  "https://www.aasd.com.au/catalogue/240722scd-contemporary-art-and-mid-century-design-art-lots-only/",
-  "https://www.aasd.com.au/catalogue/240721gim-australian-maritime-and-horological-art-lots-only/",
-  "https://www.aasd.com.au/catalogue/240720das-estate-and-collector-pictures/",
-  "https://www.aasd.com.au/catalogue/240718las-fine-art/",
-  "https://www.aasd.com.au/catalogue/240715shs-indigenous-art/",
-  "https://www.aasd.com.au/catalogue/240714las-contemporary-art/",
-  "https://www.aasd.com.au/catalogue/240711shs-a-clement-meadmore-sculpture-in-conjunction-with-dreweatts-uk/",
-  "https://www.aasd.com.au/catalogue/240706dbs-australian-and-international-art/",
-  "https://www.aasd.com.au/catalogue/240704bns-australian-art/",
-  "https://www.aasd.com.au/catalogue/240703las-fine-art-a-company-collection-online/",
-  "https://www.aasd.com.au/catalogue/240702gwh-fine-art-online/",
-  "https://www.aasd.com.au/catalogue/240627fam-the-robert-allan-collection-art-lots-only/",
-  "https://www.aasd.com.au/catalogue/240626avm-exceptional-in-australia-2024-art-lots-only/",
-  "https://www.aasd.com.au/catalogue/240626jos-the-online-collector-art-lots-only/",
-  "https://www.aasd.com.au/catalogue/240626mzm-important-australian-and-international-art/",
-  "https://www.aasd.com.au/catalogue/240625jom-fine-art/",
-  "https://www.aasd.com.au/catalogue/240625ras-fine-and-decorative-arts-art-lots-only/",
-  "https://www.aasd.com.au/catalogue/240625shs-a-devoted-collectors-19-20c-furniture-objects-and-art-art-lots-o/",
-  "https://www.aasd.com.au/catalogue/240625smd-the-connoisseurs-collection-night-two-art-lots-only/",
-  "https://www.aasd.com.au/catalogue/240623clm-decorative-arts-and-collectables-part-i-art-lots-only/",
-  "https://www.aasd.com.au/catalogue/240620las-fine-art/",
-  "https://www.aasd.com.au/catalogue/240617scd-fine-art-and-antiques-art-lots-only/",
-  "https://www.aasd.com.au/catalogue/240611cvh-fine-art/",
-  "https://www.aasd.com.au/catalogue/240609brs-art-the-collection-of-the-late-janette-beavis/",
-  "https://www.aasd.com.au/catalogue/240609las-contemporary-art/",
-  "https://www.aasd.com.au/catalogue/240605mkp-art-aboriginal-tribal-books-furniture-rugs-art-lots-only/",
-  "https://www.aasd.com.au/catalogue/240604cae-australian-international-and-indigenous-art/",
-  "https://www.aasd.com.au/catalogue/240604jos-the-collectors-auction-art-lots-only/",
-  "https://www.aasd.com.au/catalogue/240601aas-traditional-antiques-jewellery-and-fine-art-art-lots-only/",
-  "https://www.aasd.com.au/catalogue/240601dbs-australian-and-international-art/",
-  "https://www.aasd.com.au/catalogue/240528dhm-dh-online-fine-indigenous-art/",
-  "https://www.aasd.com.au/catalogue/240528las-modern-and-contemporary-australian-art-a-private-collection/",
-  "https://www.aasd.com.au/catalogue/240528smd-the-connoisseurs-auction-night-two-art-lots-only/",
-  "https://www.aasd.com.au/catalogue/240526das-australian-and-international-art/",
-  "https://www.aasd.com.au/catalogue/240525clm-australian-and-historical-art-lots-only/",
-  "https://www.aasd.com.au/catalogue/240523las-portrait-of-trooper-jonathan-jon-church-by-george-gittoes/",
-  "https://www.aasd.com.au/catalogue/240521gfp-2024-fine-art-autumn-auction/",
-  "https://www.aasd.com.au/catalogue/240521shs-australian-and-international-art/",
-  "https://www.aasd.com.au/catalogue/240520jom-centum-contemporary-art/",
-  "https://www.aasd.com.au/catalogue/240520scd-contemporary-art-and-mid-century-design/",
-  "https://www.aasd.com.au/catalogue/240519eld-important-australian-paintings/",
-  "https://www.aasd.com.au/catalogue/240519gim-the-autumn-auction-series-art-lots-only/",
-  "https://www.aasd.com.au/catalogue/240516fam-fine-australian-art-including-works-from-the-estate-of-lady-burr/",
-  "https://www.aasd.com.au/catalogue/240516las-fine-art/",
-  "https://www.aasd.com.au/catalogue/240515bnm-australian-and-international-art-online/",
-  "https://www.aasd.com.au/catalogue/240514dhm-dh-online-australian-international-fine-art/",
-  "https://www.aasd.com.au/catalogue/240512las-contemporary-art/",
-  "https://www.aasd.com.au/catalogue/240508scd-australiana-auction-art-lots-only/",
-  "https://www.aasd.com.au/catalogue/240507bns-important-australian-art/",
-  "https://www.aasd.com.au/catalogue/240504dbs-australian-and-international-art/",
-  "https://www.aasd.com.au/catalogue/240501ssm-masterpiece-del-kathryn-barton-satellite-fade-out-2011-single-lo/",
-  "https://www.aasd.com.au/catalogue/240430bns-a-corporate-collection-sydney/",
-  "https://www.aasd.com.au/catalogue/240430smd-the-connoisseurs-auction-night-two-art-lots-only/",
-  "https://www.aasd.com.au/catalogue/240429brs-fine-art-australian-and-international/",
-  "https://www.aasd.com.au/catalogue/240424dhm-important-australian-international-fine-art/",
-  "https://www.aasd.com.au/catalogue/240423brs-fine-aboriginal-art/",
-  "https://www.aasd.com.au/catalogue/240421gim-australian-and-international-art/",
-  "https://www.aasd.com.au/catalogue/240418jom-sidney-nolan-artworks-from-the-nolan-estate/",
-  "https://www.aasd.com.au/catalogue/240418las-fine-art/",
-  "https://www.aasd.com.au/catalogue/240418mzm-single-lot-online-auction-richard-larter/",
-  "https://www.aasd.com.au/catalogue/240417bns-asian-art-including-two-distinguished-collections/",
-  "https://www.aasd.com.au/catalogue/240417sss-important-australian-art/",
-  "https://www.aasd.com.au/catalogue/240415scd-fine-art-and-antique-auction-art-lots-only/",
-  "https://www.aasd.com.au/catalogue/240414das-provenance-family-of-the-artist/",
-  "https://www.aasd.com.au/catalogue/240410fam-antique-porcelain-silver-furniture-and-furnishings-including-pro/",
-  "https://www.aasd.com.au/catalogue/240410jom-prints-and-multiples/",
-  "https://www.aasd.com.au/catalogue/240409gwh-fine-art-online/",
-  "https://www.aasd.com.au/catalogue/240406dbs-australian-and-international-art/",
-  "https://www.aasd.com.au/catalogue/240327mzm-important-australian-and-international-art/",
-  "https://www.aasd.com.au/catalogue/240326dhm-important-australian-indigenous-art/",
-  "https://www.aasd.com.au/catalogue/240326ras-fine-and-decorative-arts-art-lots-only/",
-  "https://www.aasd.com.au/catalogue/240326shs-2021c-design-art-lots-only/",
-  "https://www.aasd.com.au/catalogue/240326smd-the-connoisseurs-collection-night-two-art-lots-only/",
-  "https://www.aasd.com.au/catalogue/240324clm-the-michael-and-valerie-gregg-collection-art-lots-only/",
-  "https://www.aasd.com.au/catalogue/240323aas-traditional-antiques-jewellery-and-fine-art-art-lots-only/",
-  "https://www.aasd.com.au/catalogue/240321las-fine-art/",
-  "https://www.aasd.com.au/catalogue/240319gim-prints-and-multiples/",
-  "https://www.aasd.com.au/catalogue/240319jom-fine-art/",
-  "https://www.aasd.com.au/catalogue/240319mkp-art-collectables-furniture-art-lots-only/",
-  "https://www.aasd.com.au/catalogue/240317eld-the-mackley-estate-collection-part-ii-art-lots-only/",
-  "https://www.aasd.com.au/catalogue/240312shs-works-on-paper-and-prints/",
-  "https://www.aasd.com.au/catalogue/240311brs-art-interesting-and-affordable/",
-  "https://www.aasd.com.au/catalogue/240311cvh-fine-art/",
-  "https://www.aasd.com.au/catalogue/240310das-estate-and-collector-i-asian-early-design-fine-arts-art-lots-onl/",
-  "https://www.aasd.com.au/catalogue/240310gfp-collectors-art-market/",
-  "https://www.aasd.com.au/catalogue/240309das-estate-and-collector-pictures-and-tribal-art-lots-only/",
-  "https://www.aasd.com.au/catalogue/240305cae-australian-international-and-indigenous-art-auction/",
-  "https://www.aasd.com.au/catalogue/240305ces-indigenous-fine-art-auction-the-rod-menzies-estate-indigenous-ar/",
-  "https://www.aasd.com.au/catalogue/240305jos-the-collectors-auction-art-lots-only/",
-  "https://www.aasd.com.au/catalogue/240304scd-contemporary-art-and-mid-century-design-art-lots-only/",
-  "https://www.aasd.com.au/catalogue/240303gim-interiors-private-collections/",
-  "https://www.aasd.com.au/catalogue/240302dbs-australian-and-international-art/",
-  "https://www.aasd.com.au/catalogue/240227bnm-australian-art-modern-to-contemporary-online-date-change/",
-  "https://www.aasd.com.au/catalogue/240227dhm-dh-online-works-from-a-private-collection-melbourne/",
-  "https://www.aasd.com.au/catalogue/240227smd-the-connoisseurs-collection-night-art-lots/",
-  "https://www.aasd.com.au/catalogue/240220cae-art-and-objects-form-the-collection-of-trevor-dunbar-part-i-art/",
-  "https://www.aasd.com.au/catalogue/240219jos-sidney-nolan-narratives-and-the-natural-world/",
-  "https://www.aasd.com.au/catalogue/240215las-fine-art/",
-  "https://www.aasd.com.au/catalogue/240213dhm-dh-online-australian-international-art-traditional-to-contempora/",
-  "https://www.aasd.com.au/catalogue/240213gim-summer-art-online-the-jan-courtin-and-marshall-harris-collection/",
-  "https://www.aasd.com.au/catalogue/240210clm-decorative-arts-and-collectables-day-one-art-lots-only/",
-  "https://www.aasd.com.au/catalogue/240207shs-artworks-and-tribal-artefacts-from-the-collection-of-eva-kubbos/",
-  "https://www.aasd.com.au/catalogue/240205scd-showcase-auction-art-lots-only/",
-  "https://www.aasd.com.au/catalogue/240130smd-the-connoisseurs-collection-day-2-art-lots-only/",
-  "https://www.aasd.com.au/catalogue/240129brs-the-peter-black-collection-modern-and-contemporary-art/",
-  "https://www.aasd.com.au/catalogue/240120dbs-australian-art/",
-  "https://www.aasd.com.au/catalogue/240118las-fine-art/",
-  "https://www.aasd.com.au/catalogue/240116cae-campbell-house-contents-auction-online/"
+  {
+      "auction_name": "Autumn Art Online, Gibson's Auctioneers & Valuers, Melbourne",
+      "date": "18-Mar-25",
+      "link": "https://www.aasd.com.au/catalogue/250318gim-autumn-art-online/"
+  },
+  {
+      "auction_name": "Fine Art, Leonard Joel, Melbourne",
+      "date": "18-Mar-25",
+      "link": "https://www.aasd.com.au/catalogue/250318jom-fine-art/"
+  },
+  {
+      "auction_name": "Art | Australian & International, Theodore Bruce Auctioneers & Valuers, Sydney",
+      "date": "17-Mar-25",
+      "link": "https://www.aasd.com.au/catalogue/250317brs-art-australian-and-international/"
+  },
+  {
+      "auction_name": "Australian & International | Decorative Arts, Paintings & Collectables (Art lots only), Leski Auctions Pty. Ltd, Melbourne",
+      "date": "17-Mar-25",
+      "link": "https://www.aasd.com.au/catalogue/250317clm-australian-and-international-decorative-arts-paintings-and-colle/"
+  },
+  {
+      "auction_name": "Contemporary Art, Lawsons, Sydney",
+      "date": "16-Mar-25",
+      "link": "https://www.aasd.com.au/catalogue/250316las-contemporary-art/"
+  },
+  {
+      "auction_name": "Traditional Antiques, Jewellery & Fine Art (Art lots only), Aalders Auctions, Sydney",
+      "date": "15-Mar-25",
+      "link": "https://www.aasd.com.au/catalogue/250315aas-traditional-antiques-jewellery-and-fine-art-art-lots-only/"
+  },
+  {
+      "auction_name": "Night 1 - Art, Furniture, Collectables, Rugs and Luxury Goods (Art lots only(, McKenzies Auctioneers, Perth",
+      "date": "11-Mar-25",
+      "link": "https://www.aasd.com.au/catalogue/250311mkp-night-1-art-furniture-collectables-rugs-and-luxury-goods-art-lot/"
+  },
+  {
+      "auction_name": "Fine & Decorative Arts (Art lots only), Raffan Kelaher & Thomas P/L, Sydney",
+      "date": "11-Mar-25",
+      "link": "https://www.aasd.com.au/catalogue/250311ras-fine-and-decorative-arts-art-lots-only/"
+  },
+  {
+      "auction_name": "Antiques, Decorator & Fine Arts Showcase (Art lots only), Scammell Auctions, Adelaide",
+      "date": "11-Mar-25",
+      "link": "https://www.aasd.com.au/catalogue/250311scd-antiques-decorator-and-fine-arts-showcase-art-lots-only/"
+  },
+  {
+      "auction_name": "Discovering Ethel Waddell (1865 - 1937), Lawsons, Sydney",
+      "date": "10-Mar-25",
+      "link": "https://www.aasd.com.au/catalogue/250310las-discovering-ethel-waddell-1865-1937/"
+  },
+  {
+      "auction_name": "A NSW Art Collection, Online, Shapiro Auctioneers, Sydney",
+      "date": "10-Mar-25",
+      "link": "https://www.aasd.com.au/catalogue/250310shs-a-nsw-art-collection-online/"
+  },
+  {
+      "auction_name": "Sunday Collector's Art Auction, GFL Fine Art, Perth",
+      "date": "09-Mar-25",
+      "link": "https://www.aasd.com.au/catalogue/250309gfp-sunday-collectors-art-auction/"
+  },
+  {
+      "auction_name": "The Collector's Auction; The Lilian Rollason Collection, Leonard Joel Pty. Ltd., Sydney , Leonard Joel, Sydney",
+      "date": "04-Mar-25",
+      "link": "https://www.aasd.com.au/catalogue/250304jos-the-collectors-auction-the-lilian-rollason-collection-leonard-jo/"
+  },
+  {
+      "auction_name": "Classic Interiors including the Cheong Family Collection., Bonhams, Sydney",
+      "date": "26-Feb-25",
+      "link": "https://www.aasd.com.au/catalogue/250226bns-classic-interiors-including-the-cheong-family-collection/"
+  },
+  {
+      "auction_name": "Painting the Land, A Melbourne Collection, Lawsons, Sydney",
+      "date": "25-Feb-25",
+      "link": "https://www.aasd.com.au/catalogue/250225las-painting-the-land-a-melbourne-collection/"
+  },
+  {
+      "auction_name": "Radar: 90 Emerging & Established Artists, Lawsons, Sydney",
+      "date": "24-Feb-25",
+      "link": "https://www.aasd.com.au/catalogue/250224las-radar-90-emerging-and-established-artists/"
+  },
+  {
+      "auction_name": "Australian Indigenous Art, Lawsons, Sydney",
+      "date": "23-Feb-25",
+      "link": "https://www.aasd.com.au/catalogue/250223las-australian-indigenous-art/"
+  },
+  {
+      "auction_name": "Fine Art, Lawsons, Sydney",
+      "date": "20-Feb-25",
+      "link": "https://www.aasd.com.au/catalogue/250220las-fine-art/"
+  },
+  {
+      "auction_name": "A Corporate Collection of Australian and International Art, Shapiro Auctioneers, Sydney",
+      "date": "18-Feb-25",
+      "link": "https://www.aasd.com.au/catalogue/250218shs-a-corporate-collection-of-australian-and-international-art/"
+  },
+  {
+      "auction_name": "Contemporary Art, Lawsons, Sydney",
+      "date": "16-Feb-25",
+      "link": "https://www.aasd.com.au/catalogue/250216las-contemporary-art/"
+  },
+  {
+      "auction_name": "Mid Century Art, Lawsons, Sydney",
+      "date": "13-Feb-25",
+      "link": "https://www.aasd.com.au/catalogue/250213las-mid-century-art/"
+  },
+  {
+      "auction_name": "Sidney Nolan, Works from the Artist's Studio, Leonard Joel, Melbourne",
+      "date": "12-Feb-25",
+      "link": "https://www.aasd.com.au/catalogue/250212jom-sidney-nolan-works-from-the-artists-studio/"
+  },
+  {
+      "auction_name": "Fine Art - Company Collection, Melbourne, Lawsons, Melbourne",
+      "date": "12-Feb-25",
+      "link": "https://www.aasd.com.au/catalogue/250212lam-fine-art-company-collection-melbourne/"
+  },
+  {
+      "auction_name": "Australian + International Fine Art, Colville Auctions Pty. Ltd., Hobart",
+      "date": "11-Feb-25",
+      "link": "https://www.aasd.com.au/catalogue/250211cvh-australian-international-fine-art/"
+  },
+  {
+      "auction_name": "Prints & Multiples, Gibson's Auctioneers & Valuers, Melbourne",
+      "date": "11-Feb-25",
+      "link": "https://www.aasd.com.au/catalogue/250211gim-prints-and-multiples/"
+  },
+  {
+      "auction_name": "Contemporary Art & Mid Century Design, Scammell Auctions, Adelaide",
+      "date": "03-Feb-25",
+      "link": "https://www.aasd.com.au/catalogue/250203scd-contemporary-art-and-mid-century-design/"
+  },
+  {
+      "auction_name": "Australian & International Art, Barsby Auctions, Sydney",
+      "date": "01-Feb-25",
+      "link": "https://www.aasd.com.au/catalogue/250201dbs-australian-and-international-art/"
+  },
+  {
+      "auction_name": "Australian Indigenous Art, Lawsons, Sydney",
+      "date": "27-Jan-25",
+      "link": "https://www.aasd.com.au/catalogue/250127las-australian-indigenous-art/"
+  },
+  {
+      "auction_name": "The Art Salon Capsule - Contemporary Collection , Leonard Joel, Melbourne",
+      "date": "24-Jan-25",
+      "link": "https://www.aasd.com.au/catalogue/250124jom-the-art-salon-capsule-contemporary-collection/"
+  },
+  {
+      "auction_name": "Fine Art, Lawsons, Sydney",
+      "date": "16-Jan-25",
+      "link": "https://www.aasd.com.au/catalogue/250116las-fine-art/"
+  },
+  {
+      "auction_name": "Contemporary Art, Lawsons, Sydney",
+      "date": "12-Jan-25",
+      "link": "https://www.aasd.com.au/catalogue/250112las-contemporary-art/"
+  },
+  {
+      "auction_name": "Fine Art, Lawsons, Sydney",
+      "date": "19-Dec-24",
+      "link": "https://www.aasd.com.au/catalogue/241219las-fine-art/"
+  },
+  {
+      "auction_name": "Australian Indigenous Art, Lawsons, Sydney",
+      "date": "18-Dec-24",
+      "link": "https://www.aasd.com.au/catalogue/241218las-australian-indigenous-art/"
+  },
+  {
+      "auction_name": "Other Australian Impressionists, Lawsons, Sydney",
+      "date": "12-Dec-24",
+      "link": "https://www.aasd.com.au/catalogue/241212las-other-australian-impressionists/"
+  },
+  {
+      "auction_name": "Wolfgang Sievers - Through the Lens, Leonard Joel, Melbourne",
+      "date": "11-Dec-24",
+      "link": "https://www.aasd.com.au/catalogue/241211jom-wolfgang-sievers-through-the-lens/"
+  },
+  {
+      "auction_name": "Fine Art: Gold Coast Art Collection, Lawsons, Sydney",
+      "date": "10-Dec-24",
+      "link": "https://www.aasd.com.au/catalogue/241210las-fine-art-gold-coast-art-collection/"
+  },
+  {
+      "auction_name": "Art | End of Year | Australian & International, Theodore Bruce Auctioneers & Valuers, Sydney",
+      "date": "09-Dec-24",
+      "link": "https://www.aasd.com.au/catalogue/241209brs-art-end-of-year-australian-and-international/"
+  },
+  {
+      "auction_name": "Art Deco Design: A Collection of Fine Furniture & Objects (Art lots only), Leonard Joel, Melbourne",
+      "date": "09-Dec-24",
+      "link": "https://www.aasd.com.au/catalogue/241209jom-art-deco-design-a-collection-of-fine-furniture-and-objects-art-l/"
+  },
+  {
+      "auction_name": "Showcase Auction (Art lots only), Scammell Auctions, Adelaide",
+      "date": "09-Dec-24",
+      "link": "https://www.aasd.com.au/catalogue/241209scd-showcase-auction-art-lots-only/"
+  },
+  {
+      "auction_name": "Australian & Historical, Session II, Art lots only., Leski Auctions Pty. Ltd, Melbourne",
+      "date": "08-Dec-24",
+      "link": "https://www.aasd.com.au/catalogue/241208clm-australian-and-historical-session-ii-art-lots-only/"
+  },
+  {
+      "auction_name": "Estate & Collector, Davidson Auctions, Sydney",
+      "date": "08-Dec-24",
+      "link": "https://www.aasd.com.au/catalogue/241208das-estate-and-collector/"
+  },
+  {
+      "auction_name": "Important Australian Paintings, Elder Fine Art, Adelaide",
+      "date": "08-Dec-24",
+      "link": "https://www.aasd.com.au/catalogue/241208eld-important-australian-paintings/"
+  },
+  {
+      "auction_name": "Australian & International Art, Davidson Auctions, Sydney",
+      "date": "07-Dec-24",
+      "link": "https://www.aasd.com.au/catalogue/241207das-australian-and-international-art/"
+  },
+  {
+      "auction_name": "Important Australian Art , Bonhams, Sydney",
+      "date": "03-Dec-24",
+      "link": "https://www.aasd.com.au/catalogue/241203bns-important-australian-art/"
+  },
+  {
+      "auction_name": "Fine Art Auction, Gowans Auctions, Hobart",
+      "date": "03-Dec-24",
+      "link": "https://www.aasd.com.au/catalogue/241203gwh-fine-art-auction/"
+  },
+  {
+      "auction_name": "Australian Abstract, Lawsons, Melbourne",
+      "date": "03-Dec-24",
+      "link": "https://www.aasd.com.au/catalogue/241203lam-australian-abstract/"
+  },
+  {
+      "auction_name": "Art, Collectables & Furniture. (Art lots only), McKenzies Auctioneers, Perth",
+      "date": "03-Dec-24",
+      "link": "https://www.aasd.com.au/catalogue/241203mkp-art-collectables-and-furniture-art-lots-only/"
+  },
+  {
+      "auction_name": "The Art Collector, Leonard Joel, Sydney",
+      "date": "02-Dec-24",
+      "link": "https://www.aasd.com.au/catalogue/241202jos-the-art-collector/"
+  },
+  {
+      "auction_name": "Important Australian Art, Smith & Singer, Sydney",
+      "date": "27-Nov-24",
+      "link": "https://www.aasd.com.au/catalogue/241127sss-important-australian-art/"
+  },
+  {
+      "auction_name": "Important Australian + International Fine Art, Deutscher and Hackett , Melbourne",
+      "date": "26-Nov-24",
+      "link": "https://www.aasd.com.au/catalogue/241126dhm-important-australian-international-fine-art/"
+  },
+  {
+      "auction_name": "Spring 2024 Fine Art Auction, GFL Fine Art, Perth",
+      "date": "26-Nov-24",
+      "link": "https://www.aasd.com.au/catalogue/241126gfp-spring-2024-fine-art-auction/"
+  },
+  {
+      "auction_name": "Spring Art Online, Gibson's Auctioneers & Valuers, Melbourne",
+      "date": "26-Nov-24",
+      "link": "https://www.aasd.com.au/catalogue/241126gim-spring-art-online/"
+  },
+  {
+      "auction_name": "Australian and International Art, Shapiro Auctioneers, Sydney",
+      "date": "25-Nov-24",
+      "link": "https://www.aasd.com.au/catalogue/241125shs-australian-and-international-art/"
+  },
+  {
+      "auction_name": "Australian Indigenous Art, Lawsons, Sydney",
+      "date": "24-Nov-24",
+      "link": "https://www.aasd.com.au/catalogue/241124las-australian-indigenous-art/"
+  },
+  {
+      "auction_name": "Post War and Contemporary, Bonhams, New York",
+      "date": "21-Nov-24",
+      "link": "https://www.aasd.com.au/catalogue/241121bnn-post-war-and-contemporary/"
+  },
+  {
+      "auction_name": "Fine Art, Lawsons, Sydney",
+      "date": "21-Nov-24",
+      "link": "https://www.aasd.com.au/catalogue/241121las-fine-art/"
+  },
+  {
+      "auction_name": "20/21st Century, Bonhams, New York",
+      "date": "20-Nov-24",
+      "link": "https://www.aasd.com.au/catalogue/241120bnn-20-21st-century/"
+  },
+  {
+      "auction_name": "Important Australian & International Art , Menzies, Melbourne",
+      "date": "20-Nov-24",
+      "link": "https://www.aasd.com.au/catalogue/241120mzm-important-australian-and-international-art/"
+  },
+  {
+      "auction_name": "Australian & International Fine Art, Colville Auctions Pty. Ltd., Hobart",
+      "date": "19-Nov-24",
+      "link": "https://www.aasd.com.au/catalogue/241119cvh-australian-and-international-fine-art/"
+  },
+  {
+      "auction_name": "Australian and International Art, Aalders Auctions, Sydney",
+      "date": "16-Nov-24",
+      "link": "https://www.aasd.com.au/catalogue/241116aas-australian-and-international-art/"
+  },
+  {
+      "auction_name": "Chinese Paintings and Asian Works of Art, Bonhams, Sydney",
+      "date": "13-Nov-24",
+      "link": "https://www.aasd.com.au/catalogue/241113bns-chinese-paintings-and-asian-works-of-art/"
+  },
+  {
+      "auction_name": "Australian and International Art , For-Auction, Melbourne",
+      "date": "13-Nov-24",
+      "link": "https://www.aasd.com.au/catalogue/241113fam-australian-and-international-art/"
+  },
+  {
+      "auction_name": "Prints & Multiples, Leonard Joel, Melbourne",
+      "date": "13-Nov-24",
+      "link": "https://www.aasd.com.au/catalogue/241113jom-prints-and-multiples/"
+  },
+  {
+      "auction_name": "The Online Collector, Leonard Joel, Sydney",
+      "date": "13-Nov-24",
+      "link": "https://www.aasd.com.au/catalogue/241113jos-the-online-collector/"
+  },
+  {
+      "auction_name": "Australian Art Online, Bonhams, Melbourne",
+      "date": "12-Nov-24",
+      "link": "https://www.aasd.com.au/catalogue/241112bnm-australian-art-online/"
+  },
+  {
+      "auction_name": "First Nations Fine Art Auction, Art Leven (formerly Cooee Art), Sydney",
+      "date": "12-Nov-24",
+      "link": "https://www.aasd.com.au/catalogue/241112ces-first-nations-fine-art-auction/"
+  },
+  {
+      "auction_name": "Sidney Nolan, Works from the Artist's Studio, Leonard Joel, Sydney",
+      "date": "11-Nov-24",
+      "link": "https://www.aasd.com.au/catalogue/241111jos-sidney-nolan-works-from-the-artists-studio/"
+  },
+  {
+      "auction_name": "Contemporary Art & Mid Century Design (Art lots only), Scammell Auctions, Adelaide",
+      "date": "11-Nov-24",
+      "link": "https://www.aasd.com.au/catalogue/241111scd-contemporary-art-and-mid-century-design-art-lots-only/"
+  },
+  {
+      "auction_name": "Contemporary Art, Lawsons, Sydney",
+      "date": "10-Nov-24",
+      "link": "https://www.aasd.com.au/catalogue/241110las-contemporary-art/"
+  },
+  {
+      "auction_name": "Fine Art – Company Collection, Lawsons, Melbourne",
+      "date": "06-Nov-24",
+      "link": "https://www.aasd.com.au/catalogue/241106lam-fine-art-company-collection/"
+  },
+  {
+      "auction_name": "Rare & Collectable Australian Paintings, Elder Fine Art, Adelaide",
+      "date": "28-Oct-24",
+      "link": "https://www.aasd.com.au/catalogue/241028eld-rare-and-collectable-australian-paintings/"
+  },
+  {
+      "auction_name": "Australian & International Art, Gibson's Auctioneers & Valuers, Melbourne",
+      "date": "27-Oct-24",
+      "link": "https://www.aasd.com.au/catalogue/241027gim-australian-and-international-art/"
+  },
+  {
+      "auction_name": "Indigenous Art, Lawsons, Sydney",
+      "date": "27-Oct-24",
+      "link": "https://www.aasd.com.au/catalogue/241027las-indigenous-art/"
+  },
+  {
+      "auction_name": "The Collection of Phillip Adams, Part I, Artvisory, Melbourne",
+      "date": "23-Oct-24",
+      "link": "https://www.aasd.com.au/catalogue/241023avm-the-collection-of-phillip-adams-part-i/"
+  },
+  {
+      "auction_name": "Art + Design (Art lots only), Lawsons, Sydney",
+      "date": "23-Oct-24",
+      "link": "https://www.aasd.com.au/catalogue/241023las-art-design-art-lots-only/"
+  },
+  {
+      "auction_name": "D+H ONLINE: Modern + Contemporary Fine Art, Deutscher and Hackett , Melbourne",
+      "date": "22-Oct-24",
+      "link": "https://www.aasd.com.au/catalogue/241022dhm-dh-online-modern-contemporary-fine-art/"
+  },
+  {
+      "auction_name": "Fine & Indigenous Art, Leonard Joel, Melbourne",
+      "date": "22-Oct-24",
+      "link": "https://www.aasd.com.au/catalogue/241022jom-fine-and-indigenous-art/"
+  },
+  {
+      "auction_name": "The Dr. Jane Lennon Collection (Art lots only), Leski Auctions Pty. Ltd, Melbourne",
+      "date": "20-Oct-24",
+      "link": "https://www.aasd.com.au/catalogue/241020clm-the-dr-jane-lennon-collection-art-lots-only/"
+  },
+  {
+      "auction_name": "Fine Art, Lawsons, Sydney",
+      "date": "17-Oct-24",
+      "link": "https://www.aasd.com.au/catalogue/241017las-fine-art/"
+  },
+  {
+      "auction_name": "Art | Australian & International, Theodore Bruce Auctioneers & Valuers, Sydney",
+      "date": "14-Oct-24",
+      "link": "https://www.aasd.com.au/catalogue/241014brs-art-australian-and-international/"
+  },
+  {
+      "auction_name": "Antiques, Decorator & Fine Arts (Art lots only), Scammell Auctions, Adelaide",
+      "date": "14-Oct-24",
+      "link": "https://www.aasd.com.au/catalogue/241014scd-antiques-decorator-and-fine-arts-art-lots-only/"
+  },
+  {
+      "auction_name": "Estate & Collector: Pictures, Davidson Auctions, Sydney",
+      "date": "13-Oct-24",
+      "link": "https://www.aasd.com.au/catalogue/241013das-estate-and-collector-pictures/"
+  },
+  {
+      "auction_name": "Early 20th Century and Modernist Art, Lawsons, Sydney",
+      "date": "08-Oct-24",
+      "link": "https://www.aasd.com.au/catalogue/241008las-early-20th-century-and-modernist-art/"
+  },
+  {
+      "auction_name": "Australian & International Fine Art, Barsby Auctions, Sydney",
+      "date": "05-Oct-24",
+      "link": "https://www.aasd.com.au/catalogue/241005dbs-australian-and-international-fine-art/"
+  },
+  {
+      "auction_name": "Fine Aboriginal Art, Theodore Bruce Auctioneers & Valuers, Sydney",
+      "date": "02-Oct-24",
+      "link": "https://www.aasd.com.au/catalogue/241002brs-fine-aboriginal-art/"
+  },
+  {
+      "auction_name": "Australian Art - 1960s to Today by Lawsons, Lawsons, Sydney",
+      "date": "01-Oct-24",
+      "link": "https://www.aasd.com.au/catalogue/241001las-australian-art-1960s-to-today-by-lawsons/"
+  },
+  {
+      "auction_name": "Fine & Decorative Arts, Raffan Kelaher & Thomas P/L, Sydney",
+      "date": "01-Oct-24",
+      "link": "https://www.aasd.com.au/catalogue/241001ras-fine-and-decorative-arts/"
+  },
+  {
+      "auction_name": "Collector's Edit - Fine Art, Editions & Sculpture, Lawsons, Sydney",
+      "date": "29-Sep-24",
+      "link": "https://www.aasd.com.au/catalogue/240929las-collectors-edit-fine-art-editions-and-sculpture/"
+  },
+  {
+      "auction_name": "The Darryn Lyons Collection, Gibson's Auctioneers & Valuers, Melbourne",
+      "date": "24-Sep-24",
+      "link": "https://www.aasd.com.au/catalogue/240924gim-the-darryn-lyons-collection/"
+  },
+  {
+      "auction_name": "Fine Art, Gowans Auctions, Hobart",
+      "date": "24-Sep-24",
+      "link": "https://www.aasd.com.au/catalogue/240924gwh-fine-art/"
+  },
+  {
+      "auction_name": "Art & Objects From the Collection of Ray Hughes, Shapiro Auctioneers, Sydney",
+      "date": "24-Sep-24",
+      "link": "https://www.aasd.com.au/catalogue/240924shs-art-and-objects-from-the-collection-of-ray-hughes/"
+  },
+  {
+      "auction_name": "Interiors | Private Collections (Art lots only), Gibson's Auctioneers & Valuers, Melbourne",
+      "date": "23-Sep-24",
+      "link": "https://www.aasd.com.au/catalogue/240923gim-interiors-private-collections-art-lots-only/"
+  },
+  {
+      "auction_name": "Women Artists, Leonard Joel, Melbourne",
+      "date": "23-Sep-24",
+      "link": "https://www.aasd.com.au/catalogue/240923jom-women-artists/"
+  },
+  {
+      "auction_name": "Australian Indigenous Art, Lawsons, Sydney",
+      "date": "22-Sep-24",
+      "link": "https://www.aasd.com.au/catalogue/240922las-australian-indigenous-art/"
+  },
+  {
+      "auction_name": "Fine Art, Lawsons, Sydney",
+      "date": "19-Sep-24",
+      "link": "https://www.aasd.com.au/catalogue/240919las-fine-art/"
+  },
+  {
+      "auction_name": "D&H ONLINE: Works from the Estate of John Barnes, Deutscher and Hackett , Melbourne",
+      "date": "17-Sep-24",
+      "link": "https://www.aasd.com.au/catalogue/240917dhm-dandh-online-works-from-the-estate-of-john-barnes/"
+  },
+  {
+      "auction_name": "The Collector's Auction (Art lots only), Leonard Joel, Sydney",
+      "date": "17-Sep-24",
+      "link": "https://www.aasd.com.au/catalogue/240917jos-the-collectors-auction-art-lots-only/"
+  },
+  {
+      "auction_name": "Showcase Auction (Art lots only), Scammell Auctions, Adelaide",
+      "date": "16-Sep-24",
+      "link": "https://www.aasd.com.au/catalogue/240916scd-showcase-auction-art-lots-only/"
+  },
+  {
+      "auction_name": "Contemporary Art, Lawsons, Sydney",
+      "date": "15-Sep-24",
+      "link": "https://www.aasd.com.au/catalogue/240915las-contemporary-art/"
+  },
+  {
+      "auction_name": "Important Australian Art, Bonhams, Sydney",
+      "date": "10-Sep-24",
+      "link": "https://www.aasd.com.au/catalogue/240910bns-important-australian-art/"
+  },
+  {
+      "auction_name": "Furniture, Art, Oriental & Collectables Auction (Art lots only), McKenzies Auctioneers, Perth",
+      "date": "10-Sep-24",
+      "link": "https://www.aasd.com.au/catalogue/240910mkp-furniture-art-oriental-and-collectables-auction-art-lots-only/"
+  },
+  {
+      "auction_name": "Important Australian Paintings, Elder Fine Art, Adelaide",
+      "date": "08-Sep-24",
+      "link": "https://www.aasd.com.au/catalogue/240908eld-important-australian-paintings/"
+  },
+  {
+      "auction_name": "The Winter Auction Series Part I, Gibson's Auctioneers & Valuers, Melbourne",
+      "date": "01-Sep-24",
+      "link": "https://www.aasd.com.au/catalogue/240901gim-the-winter-auction-series-part-i/"
+  },
+  {
+      "auction_name": "Important Australian + International Fine Art, Deutscher and Hackett , Melbourne",
+      "date": "28-Aug-24",
+      "link": "https://www.aasd.com.au/catalogue/240828dhm-important-australian-international-fine-art/"
+  },
+  {
+      "auction_name": "Prints & Multiples Online, Menzies, Sydney",
+      "date": "28-Aug-24",
+      "link": "https://www.aasd.com.au/catalogue/240828mzs-prints-and-multiples-online/"
+  },
+  {
+      "auction_name": "The Morgan Collection, Bonhams, Sydney",
+      "date": "27-Aug-24",
+      "link": "https://www.aasd.com.au/catalogue/240827bns-the-morgan-collection/"
+  },
+  {
+      "auction_name": "Australian and International Art, Shapiro Auctioneers, Sydney",
+      "date": "27-Aug-24",
+      "link": "https://www.aasd.com.au/catalogue/240827shs-australian-and-international-art/"
+  },
+  {
+      "auction_name": "Art & Interesting Objects | The Collection of the Late Ellen Margaret Waugh OAM (Art lots only), Theodore Bruce Auctioneers & Valuers, Sydney",
+      "date": "26-Aug-24",
+      "link": "https://www.aasd.com.au/catalogue/240826brs-art-and-interesting-objects-the-collection-of-the-late-ellen-mar/"
+  },
+  {
+      "auction_name": "Australian & International Art, Davidson Auctions, Sydney",
+      "date": "25-Aug-24",
+      "link": "https://www.aasd.com.au/catalogue/240825das-australian-and-international-art/"
+  },
+  {
+      "auction_name": "Australian Indigenous Art, Lawsons, Sydney",
+      "date": "25-Aug-24",
+      "link": "https://www.aasd.com.au/catalogue/240825las-australian-indigenous-art/"
+  },
+  {
+      "auction_name": "Traditional Antiques & Fine Art (Art lots only), Aalders Auctions, Sydney",
+      "date": "24-Aug-24",
+      "link": "https://www.aasd.com.au/catalogue/240824aas-traditional-antiques-and-fine-art-art-lots-only/"
+  },
+  {
+      "auction_name": "Australian Art, Bonhams, Sydney",
+      "date": "22-Aug-24",
+      "link": "https://www.aasd.com.au/catalogue/240822bns-australian-art/"
+  },
+  {
+      "auction_name": "The Simon Ryan Collection part I, For-Auction, Melbourne",
+      "date": "21-Aug-24",
+      "link": "https://www.aasd.com.au/catalogue/240821fam-the-simon-ryan-collection-part-i/"
+  },
+  {
+      "auction_name": "Important Australian Art, Smith & Singer, Sydney",
+      "date": "21-Aug-24",
+      "link": "https://www.aasd.com.au/catalogue/240821sss-important-australian-art/"
+  },
+  {
+      "auction_name": "Prints & Multiples | Featuring Selected Works from the Julian Burnside & Kate Durham Collection, Gibson's Auctioneers & Valuers, Melbourne",
+      "date": "20-Aug-24",
+      "link": "https://www.aasd.com.au/catalogue/240820gim-prints-and-multiples-featuring-selected-works-from-the-julian-bu/"
+  },
+  {
+      "auction_name": "The Keith and Annette Bennett Collection of Art and Antiques (Art lots only), Artvisory, Sydney",
+      "date": "18-Aug-24",
+      "link": "https://www.aasd.com.au/catalogue/240818avs-the-keith-and-annette-bennett-collection-of-art-and-antiques-art/"
+  },
+  {
+      "auction_name": "Collector's Art Market, GFL Fine Art, Perth",
+      "date": "18-Aug-24",
+      "link": "https://www.aasd.com.au/catalogue/240818gfp-collectors-art-market/"
+  },
+  {
+      "auction_name": "Important Australian Art featuring the collection of the late M.G. Ward, Lawsons, Sydney",
+      "date": "15-Aug-24",
+      "link": "https://www.aasd.com.au/catalogue/240815las-important-australian-art-featuring-the-collection-of-the-late-mg/"
+  },
+  {
+      "auction_name": "Sidney Nolan, Works from the Artist's Studio, Leonard Joel, Melbourne",
+      "date": "14-Aug-24",
+      "link": "https://www.aasd.com.au/catalogue/240814jom-sidney-nolan-works-from-the-artists-studio/"
+  },
+  {
+      "auction_name": "Mid-Century Art - Private Collection, Lawsons, Sydney",
+      "date": "14-Aug-24",
+      "link": "https://www.aasd.com.au/catalogue/240814las-mid-century-art-private-collection/"
+  },
+  {
+      "auction_name": "Fine Art, Colville Auctions Pty. Ltd., Hobart",
+      "date": "06-Aug-24",
+      "link": "https://www.aasd.com.au/catalogue/240806cvh-fine-art/"
+  },
+  {
+      "auction_name": "Decorative Arts (Art lots only), Leonard Joel, Melbourne",
+      "date": "05-Aug-24",
+      "link": "https://www.aasd.com.au/catalogue/240805jom-decorative-arts-art-lots-only/"
+  },
+  {
+      "auction_name": "D+H ONLINE: Modern + Contemporary + Indigenous Art, Deutscher and Hackett , Melbourne",
+      "date": "30-Jul-24",
+      "link": "https://www.aasd.com.au/catalogue/240730dhm-dh-online-modern-contemporary-indigenous-art/"
+  },
+  {
+      "auction_name": "Art, Tribal, Collectables, Furniture. (Art lots only), McKenzies Auctioneers, Perth",
+      "date": "30-Jul-24",
+      "link": "https://www.aasd.com.au/catalogue/240730mkp-art-tribal-collectables-furniture-art-lots-only/"
+  },
+  {
+      "auction_name": "The Connoisseurs Collection, Night Two, (Art lots only), Small & Whitfield Auctions, Adelaide",
+      "date": "30-Jul-24",
+      "link": "https://www.aasd.com.au/catalogue/240730smd-the-connoisseurs-collection-night-two-art-lots-only/"
+  },
+  {
+      "auction_name": "Fine Aboriginal Art, Theodore Bruce Auctioneers & Valuers, Sydney",
+      "date": "29-Jul-24",
+      "link": "https://www.aasd.com.au/catalogue/240729brs-fine-aboriginal-art/"
+  },
+  {
+      "auction_name": "Art | Australian & International | Online, Theodore Bruce Auctioneers & Valuers, Sydney",
+      "date": "28-Jul-24",
+      "link": "https://www.aasd.com.au/catalogue/240728brs-art-australian-and-international-online/"
+  },
+  {
+      "auction_name": "Indigenous Art, Lawsons, Sydney",
+      "date": "28-Jul-24",
+      "link": "https://www.aasd.com.au/catalogue/240728las-indigenous-art/"
+  },
+  {
+      "auction_name": "Australian & European Investment Art, Phillip Caldwell Auctioneers, Melbourne",
+      "date": "28-Jul-24",
+      "link": "https://www.aasd.com.au/catalogue/240728pcm-australian-and-european-investment-art/"
+  },
+  {
+      "auction_name": "Important Australian Art from the Estate of the Late Ron Walker; Works by Arthur Boyd from The Denis Savill Collection , Smith & Singer, Melbourne",
+      "date": "24-Jul-24",
+      "link": "https://www.aasd.com.au/catalogue/240724ssm-important-australian-art-from-the-estate-of-the-late-ron-walker/"
+  },
+  {
+      "auction_name": "Winter Art Online, Gibson's Auctioneers & Valuers, Melbourne",
+      "date": "23-Jul-24",
+      "link": "https://www.aasd.com.au/catalogue/240723gim-winter-art-online/"
+  },
+  {
+      "auction_name": "Contemporary Art & Mid Century Design (Art lots only), Scammell Auctions, Adelaide",
+      "date": "22-Jul-24",
+      "link": "https://www.aasd.com.au/catalogue/240722scd-contemporary-art-and-mid-century-design-art-lots-only/"
+  },
+  {
+      "auction_name": "Australian Maritime & Horological (Art lots only), Gibson's Auctioneers & Valuers, Melbourne",
+      "date": "21-Jul-24",
+      "link": "https://www.aasd.com.au/catalogue/240721gim-australian-maritime-and-horological-art-lots-only/"
+  },
+  {
+      "auction_name": "Estate & Collector: Pictures, Davidson Auctions, Sydney",
+      "date": "20-Jul-24",
+      "link": "https://www.aasd.com.au/catalogue/240720das-estate-and-collector-pictures/"
+  },
+  {
+      "auction_name": "Fine Art, Lawsons, Sydney",
+      "date": "18-Jul-24",
+      "link": "https://www.aasd.com.au/catalogue/240718las-fine-art/"
+  },
+  {
+      "auction_name": "Indigenous Art, Shapiro Auctioneers, Sydney",
+      "date": "15-Jul-24",
+      "link": "https://www.aasd.com.au/catalogue/240715shs-indigenous-art/"
+  },
+  {
+      "auction_name": "Contemporary Art, Lawsons, Sydney",
+      "date": "14-Jul-24",
+      "link": "https://www.aasd.com.au/catalogue/240714las-contemporary-art/"
+  },
+  {
+      "auction_name": "A Clement Meadmore Sculpture (In conjunction with Dreweatts UK), Shapiro Auctioneers, Sydney",
+      "date": "11-Jul-24",
+      "link": "https://www.aasd.com.au/catalogue/240711shs-a-clement-meadmore-sculpture-in-conjunction-with-dreweatts-uk/"
+  },
+  {
+      "auction_name": "Australian & International Art, Barsby Auctions, Sydney",
+      "date": "06-Jul-24",
+      "link": "https://www.aasd.com.au/catalogue/240706dbs-australian-and-international-art/"
+  },
+  {
+      "auction_name": "Australian Art, Bonhams, Sydney",
+      "date": "04-Jul-24",
+      "link": "https://www.aasd.com.au/catalogue/240704bns-australian-art/"
+  },
+  {
+      "auction_name": "Fine Art: A Company Collection, Online, Lawsons, Sydney",
+      "date": "03-Jul-24",
+      "link": "https://www.aasd.com.au/catalogue/240703las-fine-art-a-company-collection-online/"
+  },
+  {
+      "auction_name": "Fine Art Online, Gowans Auctions, Hobart",
+      "date": "02-Jul-24",
+      "link": "https://www.aasd.com.au/catalogue/240702gwh-fine-art-online/"
+  },
+  {
+      "auction_name": "The Robert Allan Collection (Art lots only), For-Auction, Melbourne",
+      "date": "27-Jun-24",
+      "link": "https://www.aasd.com.au/catalogue/240627fam-the-robert-allan-collection-art-lots-only/"
+  },
+  {
+      "auction_name": "Exceptional in Australia, 2024 (Art lots only), Artvisory, Melbourne",
+      "date": "26-Jun-24",
+      "link": "https://www.aasd.com.au/catalogue/240626avm-exceptional-in-australia-2024-art-lots-only/"
+  },
+  {
+      "auction_name": "The Online Collector (Art lots only), Leonard Joel, Sydney",
+      "date": "26-Jun-24",
+      "link": "https://www.aasd.com.au/catalogue/240626jos-the-online-collector-art-lots-only/"
+  },
+  {
+      "auction_name": "Important Australian & International Art , Menzies, Melbourne",
+      "date": "26-Jun-24",
+      "link": "https://www.aasd.com.au/catalogue/240626mzm-important-australian-and-international-art/"
+  },
+  {
+      "auction_name": "Fine Art, Leonard Joel, Melbourne",
+      "date": "25-Jun-24",
+      "link": "https://www.aasd.com.au/catalogue/240625jom-fine-art/"
+  },
+  {
+      "auction_name": "Fine & Decorative Arts (Art lots only), Raffan Kelaher & Thomas P/L, Sydney",
+      "date": "25-Jun-24",
+      "link": "https://www.aasd.com.au/catalogue/240625ras-fine-and-decorative-arts-art-lots-only/"
+  },
+  {
+      "auction_name": "A Devoted Collectors 19/20C Furniture, Objects and Art (Art lots only), Shapiro Auctioneers, Sydney",
+      "date": "25-Jun-24",
+      "link": "https://www.aasd.com.au/catalogue/240625shs-a-devoted-collectors-19-20c-furniture-objects-and-art-art-lots-o/"
+  },
+  {
+      "auction_name": "The Connoisseurs Collection, Night Two, (Art lots only), Small & Whitfield Auctions, Adelaide",
+      "date": "25-Jun-24",
+      "link": "https://www.aasd.com.au/catalogue/240625smd-the-connoisseurs-collection-night-two-art-lots-only/"
+  },
+  {
+      "auction_name": "Decorative Arts & Collectables Part I, (Art lots only), Leski Auctions Pty. Ltd, Melbourne",
+      "date": "23-Jun-24",
+      "link": "https://www.aasd.com.au/catalogue/240623clm-decorative-arts-and-collectables-part-i-art-lots-only/"
+  },
+  {
+      "auction_name": "Fine Art, Lawsons, Sydney",
+      "date": "20-Jun-24",
+      "link": "https://www.aasd.com.au/catalogue/240620las-fine-art/"
+  },
+  {
+      "auction_name": "Fine Art & Antiques (Art lots only), Scammell Auctions, Adelaide",
+      "date": "17-Jun-24",
+      "link": "https://www.aasd.com.au/catalogue/240617scd-fine-art-and-antiques-art-lots-only/"
+  },
+  {
+      "auction_name": "Fine Art, Colville Auctions Pty. Ltd., Hobart",
+      "date": "11-Jun-24",
+      "link": "https://www.aasd.com.au/catalogue/240611cvh-fine-art/"
+  },
+  {
+      "auction_name": "Art | The Collection of the Late Janette Beavis, Theodore Bruce Auctioneers & Valuers, Sydney",
+      "date": "09-Jun-24",
+      "link": "https://www.aasd.com.au/catalogue/240609brs-art-the-collection-of-the-late-janette-beavis/"
+  },
+  {
+      "auction_name": "Contemporary Art, Lawsons, Sydney",
+      "date": "09-Jun-24",
+      "link": "https://www.aasd.com.au/catalogue/240609las-contemporary-art/"
+  },
+  {
+      "auction_name": "Art, Aboriginal/Tribal, Books, Furniture, Rugs. (Art lots only), McKenzies Auctioneers, Perth",
+      "date": "05-Jun-24",
+      "link": "https://www.aasd.com.au/catalogue/240605mkp-art-aboriginal-tribal-books-furniture-rugs-art-lots-only/"
+  },
+  {
+      "auction_name": "Australian, International and Indigenous Art, Evans Hastings Valuers & Auctioneers , Canberra",
+      "date": "04-Jun-24",
+      "link": "https://www.aasd.com.au/catalogue/240604cae-australian-international-and-indigenous-art/"
+  },
+  {
+      "auction_name": "The Collectors Auction (Art lots only), Leonard Joel, Sydney",
+      "date": "04-Jun-24",
+      "link": "https://www.aasd.com.au/catalogue/240604jos-the-collectors-auction-art-lots-only/"
+  },
+  {
+      "auction_name": "Traditional Antiques, Jewellery and Fine Art (Art lots only), Aalders Auctions, Sydney",
+      "date": "01-Jun-24",
+      "link": "https://www.aasd.com.au/catalogue/240601aas-traditional-antiques-jewellery-and-fine-art-art-lots-only/"
+  },
+  {
+      "auction_name": "Australian & International Art, Barsby Auctions, Sydney",
+      "date": "01-Jun-24",
+      "link": "https://www.aasd.com.au/catalogue/240601dbs-australian-and-international-art/"
+  },
+  {
+      "auction_name": "D+H ONLINE: Fine Indigenous Art, Deutscher and Hackett , Melbourne",
+      "date": "28-May-24",
+      "link": "https://www.aasd.com.au/catalogue/240528dhm-dh-online-fine-indigenous-art/"
+  },
+  {
+      "auction_name": "Modern & Contemporary Australian Art: A Private Collection, Lawsons, Sydney",
+      "date": "28-May-24",
+      "link": "https://www.aasd.com.au/catalogue/240528las-modern-and-contemporary-australian-art-a-private-collection/"
+  },
+  {
+      "auction_name": "The Connoisseurs Auction, Night Two, (Art lots only), Small & Whitfield Auctions, Adelaide",
+      "date": "28-May-24",
+      "link": "https://www.aasd.com.au/catalogue/240528smd-the-connoisseurs-auction-night-two-art-lots-only/"
+  },
+  {
+      "auction_name": "Australian & International Art , Davidson Auctions, Sydney",
+      "date": "26-May-24",
+      "link": "https://www.aasd.com.au/catalogue/240526das-australian-and-international-art/"
+  },
+  {
+      "auction_name": "Australian & Historical (Art lots only), Leski Auctions Pty. Ltd, Melbourne",
+      "date": "25-May-24",
+      "link": "https://www.aasd.com.au/catalogue/240525clm-australian-and-historical-art-lots-only/"
+  },
+  {
+      "auction_name": "Portrait of Trooper Jonathan (Jon) Church by George Gittoes, Lawsons, Sydney",
+      "date": "23-May-24",
+      "link": "https://www.aasd.com.au/catalogue/240523las-portrait-of-trooper-jonathan-jon-church-by-george-gittoes/"
+  },
+  {
+      "auction_name": "2024 Fine Art Autumn Auction, GFL Fine Art, Perth",
+      "date": "21-May-24",
+      "link": "https://www.aasd.com.au/catalogue/240521gfp-2024-fine-art-autumn-auction/"
+  },
+  {
+      "auction_name": "Australian and International Art, Shapiro Auctioneers, Sydney",
+      "date": "21-May-24",
+      "link": "https://www.aasd.com.au/catalogue/240521shs-australian-and-international-art/"
+  },
+  {
+      "auction_name": "Centum Contemporary Art, Leonard Joel, Melbourne",
+      "date": "20-May-24",
+      "link": "https://www.aasd.com.au/catalogue/240520jom-centum-contemporary-art/"
+  },
+  {
+      "auction_name": "Contemporary Art & Mid Century Design, Scammell Auctions, Adelaide",
+      "date": "20-May-24",
+      "link": "https://www.aasd.com.au/catalogue/240520scd-contemporary-art-and-mid-century-design/"
+  },
+  {
+      "auction_name": "Important Australian Paintings, Elder Fine Art, Adelaide",
+      "date": "19-May-24",
+      "link": "https://www.aasd.com.au/catalogue/240519eld-important-australian-paintings/"
+  },
+  {
+      "auction_name": "The Autumn Auction Series (Art lots only), Gibson's Auctioneers & Valuers, Melbourne",
+      "date": "19-May-24",
+      "link": "https://www.aasd.com.au/catalogue/240519gim-the-autumn-auction-series-art-lots-only/"
+  },
+  {
+      "auction_name": "Fine Australian Art Including Works from the Estate of Lady Burrell Rosemont,Sydney and the Collection of a Gent, For-Auction, Melbourne",
+      "date": "16-May-24",
+      "link": "https://www.aasd.com.au/catalogue/240516fam-fine-australian-art-including-works-from-the-estate-of-lady-burr/"
+  },
+  {
+      "auction_name": "Fine Art, Lawsons, Sydney",
+      "date": "16-May-24",
+      "link": "https://www.aasd.com.au/catalogue/240516las-fine-art/"
+  },
+  {
+      "auction_name": "Australian and International Art, Online, Bonhams, Melbourne",
+      "date": "15-May-24",
+      "link": "https://www.aasd.com.au/catalogue/240515bnm-australian-and-international-art-online/"
+  },
+  {
+      "auction_name": "D+H ONLINE: Australian + International Fine Art, Deutscher and Hackett , Melbourne",
+      "date": "14-May-24",
+      "link": "https://www.aasd.com.au/catalogue/240514dhm-dh-online-australian-international-fine-art/"
+  },
+  {
+      "auction_name": "Contemporary Art, Lawsons, Sydney",
+      "date": "12-May-24",
+      "link": "https://www.aasd.com.au/catalogue/240512las-contemporary-art/"
+  },
+  {
+      "auction_name": "Australiana Auction (Art lots only), Scammell Auctions, Adelaide",
+      "date": "08-May-24",
+      "link": "https://www.aasd.com.au/catalogue/240508scd-australiana-auction-art-lots-only/"
+  },
+  {
+      "auction_name": "Important Australian Art, Bonhams, Sydney",
+      "date": "07-May-24",
+      "link": "https://www.aasd.com.au/catalogue/240507bns-important-australian-art/"
+  },
+  {
+      "auction_name": "Australian & International Art, Barsby Auctions, Sydney",
+      "date": "04-May-24",
+      "link": "https://www.aasd.com.au/catalogue/240504dbs-australian-and-international-art/"
+  },
+  {
+      "auction_name": "Masterpiece: Del Kathryn Barton Satellite Fade-Out 2011: Single Lot Auction, Smith & Singer, Melbourne",
+      "date": "01-May-24",
+      "link": "https://www.aasd.com.au/catalogue/240501ssm-masterpiece-del-kathryn-barton-satellite-fade-out-2011-single-lo/"
+  },
+  {
+      "auction_name": "A Corporate Collection, Sydney, Bonhams, Sydney",
+      "date": "30-Apr-24",
+      "link": "https://www.aasd.com.au/catalogue/240430bns-a-corporate-collection-sydney/"
+  },
+  {
+      "auction_name": "The Connoisseurs Auction, Night Two, (Art lots only), Small & Whitfield Auctions, Adelaide",
+      "date": "30-Apr-24",
+      "link": "https://www.aasd.com.au/catalogue/240430smd-the-connoisseurs-auction-night-two-art-lots-only/"
+  },
+  {
+      "auction_name": "Fine Art | Australian & International, Theodore Bruce Auctioneers & Valuers, Sydney",
+      "date": "29-Apr-24",
+      "link": "https://www.aasd.com.au/catalogue/240429brs-fine-art-australian-and-international/"
+  },
+  {
+      "auction_name": "Important Australian + International Fine Art, Deutscher and Hackett , Melbourne",
+      "date": "24-Apr-24",
+      "link": "https://www.aasd.com.au/catalogue/240424dhm-important-australian-international-fine-art/"
+  },
+  {
+      "auction_name": "Fine Aboriginal Art, Theodore Bruce Auctioneers & Valuers, Sydney",
+      "date": "23-Apr-24",
+      "link": "https://www.aasd.com.au/catalogue/240423brs-fine-aboriginal-art/"
+  },
+  {
+      "auction_name": "Australian & International Art, Gibson's Auctioneers & Valuers, Melbourne",
+      "date": "21-Apr-24",
+      "link": "https://www.aasd.com.au/catalogue/240421gim-australian-and-international-art/"
+  },
+  {
+      "auction_name": "Sidney Nolan - Artworks from the Nolan Estate, Leonard Joel, Melbourne",
+      "date": "18-Apr-24",
+      "link": "https://www.aasd.com.au/catalogue/240418jom-sidney-nolan-artworks-from-the-nolan-estate/"
+  },
+  {
+      "auction_name": "Fine Art, Lawsons, Sydney",
+      "date": "18-Apr-24",
+      "link": "https://www.aasd.com.au/catalogue/240418las-fine-art/"
+  },
+  {
+      "auction_name": "Single Lot Online Auction - Richard Larter, Menzies, Melbourne",
+      "date": "18-Apr-24",
+      "link": "https://www.aasd.com.au/catalogue/240418mzm-single-lot-online-auction-richard-larter/"
+  },
+  {
+      "auction_name": "Asian Art including Two Distinguished Collections , Bonhams, Sydney",
+      "date": "17-Apr-24",
+      "link": "https://www.aasd.com.au/catalogue/240417bns-asian-art-including-two-distinguished-collections/"
+  },
+  {
+      "auction_name": "Important Australian Art, Smith & Singer, Sydney",
+      "date": "17-Apr-24",
+      "link": "https://www.aasd.com.au/catalogue/240417sss-important-australian-art/"
+  },
+  {
+      "auction_name": "Fine Art and Antique Auction (Art lots only), Scammell Auctions, Adelaide",
+      "date": "15-Apr-24",
+      "link": "https://www.aasd.com.au/catalogue/240415scd-fine-art-and-antique-auction-art-lots-only/"
+  },
+  {
+      "auction_name": "Provenance: Family of the Artist, Davidson Auctions, Sydney",
+      "date": "14-Apr-24",
+      "link": "https://www.aasd.com.au/catalogue/240414das-provenance-family-of-the-artist/"
+  },
+  {
+      "auction_name": "Antique porcelain, silver, furniture and furnishings, including property from the Estate of the Late Lady Burrell, Rose, For-Auction, Melbourne",
+      "date": "10-Apr-24",
+      "link": "https://www.aasd.com.au/catalogue/240410fam-antique-porcelain-silver-furniture-and-furnishings-including-pro/"
+  },
+  {
+      "auction_name": "Prints & Multiples, Leonard Joel, Melbourne",
+      "date": "10-Apr-24",
+      "link": "https://www.aasd.com.au/catalogue/240410jom-prints-and-multiples/"
+  },
+  {
+      "auction_name": "Fine Art Online, Gowans Auctions, Hobart",
+      "date": "09-Apr-24",
+      "link": "https://www.aasd.com.au/catalogue/240409gwh-fine-art-online/"
+  },
+  {
+      "auction_name": "Australian and International Art, Barsby Auctions, Sydney",
+      "date": "06-Apr-24",
+      "link": "https://www.aasd.com.au/catalogue/240406dbs-australian-and-international-art/"
+  },
+  {
+      "auction_name": "Important Australian & International Art , Menzies, Melbourne",
+      "date": "27-Mar-24",
+      "link": "https://www.aasd.com.au/catalogue/240327mzm-important-australian-and-international-art/"
+  },
+  {
+      "auction_name": "Important Australian Indigenous Art, Deutscher and Hackett , Melbourne",
+      "date": "26-Mar-24",
+      "link": "https://www.aasd.com.au/catalogue/240326dhm-important-australian-indigenous-art/"
+  },
+  {
+      "auction_name": "Fine & Decorative Arts (Art lots only), Raffan Kelaher & Thomas P/L, Sydney",
+      "date": "26-Mar-24",
+      "link": "https://www.aasd.com.au/catalogue/240326ras-fine-and-decorative-arts-art-lots-only/"
+  },
+  {
+      "auction_name": "20:21C Design (Art lots only), Shapiro Auctioneers, Sydney",
+      "date": "26-Mar-24",
+      "link": "https://www.aasd.com.au/catalogue/240326shs-2021c-design-art-lots-only/"
+  },
+  {
+      "auction_name": "The Connoisseurs Collection, Night Two, (Art lots only), Small & Whitfield Auctions, Adelaide",
+      "date": "26-Mar-24",
+      "link": "https://www.aasd.com.au/catalogue/240326smd-the-connoisseurs-collection-night-two-art-lots-only/"
+  },
+  {
+      "auction_name": "The Michael & Valerie Gregg Collection (Art lots only), Leski Auctions Pty. Ltd, Melbourne",
+      "date": "24-Mar-24",
+      "link": "https://www.aasd.com.au/catalogue/240324clm-the-michael-and-valerie-gregg-collection-art-lots-only/"
+  },
+  {
+      "auction_name": "Traditional Antiques, Jewellery & Fine Art (Art lots only), Aalders Auctions, Sydney",
+      "date": "23-Mar-24",
+      "link": "https://www.aasd.com.au/catalogue/240323aas-traditional-antiques-jewellery-and-fine-art-art-lots-only/"
+  },
+  {
+      "auction_name": "Fine Art, Lawsons, Sydney",
+      "date": "21-Mar-24",
+      "link": "https://www.aasd.com.au/catalogue/240321las-fine-art/"
+  },
+  {
+      "auction_name": "Prints & Multiples, Gibson's Auctioneers & Valuers, Melbourne",
+      "date": "19-Mar-24",
+      "link": "https://www.aasd.com.au/catalogue/240319gim-prints-and-multiples/"
+  },
+  {
+      "auction_name": "Fine Art, Leonard Joel, Melbourne",
+      "date": "19-Mar-24",
+      "link": "https://www.aasd.com.au/catalogue/240319jom-fine-art/"
+  },
+  {
+      "auction_name": "Art, Collectables, Furniture. (Art lots only), McKenzies Auctioneers, Perth",
+      "date": "19-Mar-24",
+      "link": "https://www.aasd.com.au/catalogue/240319mkp-art-collectables-furniture-art-lots-only/"
+  },
+  {
+      "auction_name": "The Mackley Estate Collection Part II (Art Lots Only), Elder Fine Art, Adelaide",
+      "date": "17-Mar-24",
+      "link": "https://www.aasd.com.au/catalogue/240317eld-the-mackley-estate-collection-part-ii-art-lots-only/"
+  },
+  {
+      "auction_name": "Works on Paper and Prints, Shapiro Auctioneers, Sydney",
+      "date": "12-Mar-24",
+      "link": "https://www.aasd.com.au/catalogue/240312shs-works-on-paper-and-prints/"
+  },
+  {
+      "auction_name": "Art | Interesting & Affordable, Theodore Bruce Auctioneers & Valuers, Sydney",
+      "date": "11-Mar-24",
+      "link": "https://www.aasd.com.au/catalogue/240311brs-art-interesting-and-affordable/"
+  },
+  {
+      "auction_name": "Fine Art, Colville Auctions Pty. Ltd., Hobart",
+      "date": "11-Mar-24",
+      "link": "https://www.aasd.com.au/catalogue/240311cvh-fine-art/"
+  },
+  {
+      "auction_name": "Estate & Collector I - Asian, Early Design, Fine Arts (Art lots only), Davidson Auctions, Sydney",
+      "date": "10-Mar-24",
+      "link": "https://www.aasd.com.au/catalogue/240310das-estate-and-collector-i-asian-early-design-fine-arts-art-lots-onl/"
+  },
+  {
+      "auction_name": "Collector's Art Market, GFL Fine Art, Perth",
+      "date": "10-Mar-24",
+      "link": "https://www.aasd.com.au/catalogue/240310gfp-collectors-art-market/"
+  },
+  {
+      "auction_name": "Estate & Collector - Pictures & Tribal (Art lots only), Davidson Auctions, Sydney",
+      "date": "09-Mar-24",
+      "link": "https://www.aasd.com.au/catalogue/240309das-estate-and-collector-pictures-and-tribal-art-lots-only/"
+  },
+  {
+      "auction_name": "Australian, International & Indigenous Art Auction, Evans Hastings Valuers & Auctioneers , Canberra",
+      "date": "05-Mar-24",
+      "link": "https://www.aasd.com.au/catalogue/240305cae-australian-international-and-indigenous-art-auction/"
+  },
+  {
+      "auction_name": "Indigenous Fine Art Auction | The Rod Menzies Estate | Indigenous Art Collection Part II , Art Leven (formerly Cooee Art), Sydney",
+      "date": "05-Mar-24",
+      "link": "https://www.aasd.com.au/catalogue/240305ces-indigenous-fine-art-auction-the-rod-menzies-estate-indigenous-ar/"
+  },
+  {
+      "auction_name": "The Collectors Auction (Art lots only), Leonard Joel, Sydney",
+      "date": "05-Mar-24",
+      "link": "https://www.aasd.com.au/catalogue/240305jos-the-collectors-auction-art-lots-only/"
+  },
+  {
+      "auction_name": "Contemporary Art and Mid Century Design (Art lots only), Scammell Auctions, Adelaide",
+      "date": "04-Mar-24",
+      "link": "https://www.aasd.com.au/catalogue/240304scd-contemporary-art-and-mid-century-design-art-lots-only/"
+  },
+  {
+      "auction_name": "Interiors | Private Collections, Gibson's Auctioneers & Valuers, Melbourne",
+      "date": "03-Mar-24",
+      "link": "https://www.aasd.com.au/catalogue/240303gim-interiors-private-collections/"
+  },
+  {
+      "auction_name": "Australian & International Art, Barsby Auctions, Sydney",
+      "date": "02-Mar-24",
+      "link": "https://www.aasd.com.au/catalogue/240302dbs-australian-and-international-art/"
+  },
+  {
+      "auction_name": "Australian Art | Modern to Contemporary Online (date change), Bonhams, Melbourne",
+      "date": "27-Feb-24",
+      "link": "https://www.aasd.com.au/catalogue/240227bnm-australian-art-modern-to-contemporary-online-date-change/"
+  },
+  {
+      "auction_name": "D+H ONLINE: Works from a Private Collection, Melbourne, Deutscher and Hackett , Melbourne",
+      "date": "27-Feb-24",
+      "link": "https://www.aasd.com.au/catalogue/240227dhm-dh-online-works-from-a-private-collection-melbourne/"
+  },
+  {
+      "auction_name": "The Connoisseurs Collection, Night (Art lots), Small & Whitfield Auctions, Adelaide",
+      "date": "27-Feb-24",
+      "link": "https://www.aasd.com.au/catalogue/240227smd-the-connoisseurs-collection-night-art-lots/"
+  },
+  {
+      "auction_name": "Art & Objects form the Collection of Trevor Dunbar - Part I (Art lots only), Evans Hastings Valuers & Auctioneers , Canberra",
+      "date": "20-Feb-24",
+      "link": "https://www.aasd.com.au/catalogue/240220cae-art-and-objects-form-the-collection-of-trevor-dunbar-part-i-art/"
+  },
+  {
+      "auction_name": "Sidney Nolan - Narratives & the Natural World, Leonard Joel, Sydney",
+      "date": "19-Feb-24",
+      "link": "https://www.aasd.com.au/catalogue/240219jos-sidney-nolan-narratives-and-the-natural-world/"
+  },
+  {
+      "auction_name": "Fine Art, Lawsons, Sydney",
+      "date": "15-Feb-24",
+      "link": "https://www.aasd.com.au/catalogue/240215las-fine-art/"
+  },
+  {
+      "auction_name": "D+H ONLINE: Australian + International Art: Traditional to Contemporary, Deutscher and Hackett , Melbourne",
+      "date": "13-Feb-24",
+      "link": "https://www.aasd.com.au/catalogue/240213dhm-dh-online-australian-international-art-traditional-to-contempora/"
+  },
+  {
+      "auction_name": "Summer Art Online | The Jan Courtin & Marshall Harris Collection, Gibson's Auctioneers & Valuers, Melbourne",
+      "date": "13-Feb-24",
+      "link": "https://www.aasd.com.au/catalogue/240213gim-summer-art-online-the-jan-courtin-and-marshall-harris-collection/"
+  },
+  {
+      "auction_name": "Decorative Arts & Collectables Day One, (Art Lots Only), Leski Auctions Pty. Ltd, Melbourne",
+      "date": "10-Feb-24",
+      "link": "https://www.aasd.com.au/catalogue/240210clm-decorative-arts-and-collectables-day-one-art-lots-only/"
+  },
+  {
+      "auction_name": "Artworks and Tribal Artefacts from the Collection of Eva Kubbos; Works on Paper from the Estate of Ray Hughes (Art lots), Shapiro Auctioneers, Sydney",
+      "date": "07-Feb-24",
+      "link": "https://www.aasd.com.au/catalogue/240207shs-artworks-and-tribal-artefacts-from-the-collection-of-eva-kubbos/"
+  },
+  {
+      "auction_name": "Showcase Auction (Art lots only), Scammell Auctions, Adelaide",
+      "date": "05-Feb-24",
+      "link": "https://www.aasd.com.au/catalogue/240205scd-showcase-auction-art-lots-only/"
+  },
+  {
+      "auction_name": "The Connoisseurs Collection, Day 2 (Art lots only), Small & Whitfield Auctions, Adelaide",
+      "date": "30-Jan-24",
+      "link": "https://www.aasd.com.au/catalogue/240130smd-the-connoisseurs-collection-day-2-art-lots-only/"
+  },
+  {
+      "auction_name": "The Peter Black Collection | Modern & Contemporary Art , Theodore Bruce Auctioneers & Valuers, Sydney",
+      "date": "29-Jan-24",
+      "link": "https://www.aasd.com.au/catalogue/240129brs-the-peter-black-collection-modern-and-contemporary-art/"
+  },
+  {
+      "auction_name": "Australian Art, Barsby Auctions, Sydney",
+      "date": "20-Jan-24",
+      "link": "https://www.aasd.com.au/catalogue/240120dbs-australian-art/"
+  },
+  {
+      "auction_name": "Fine Art, Lawsons, Sydney",
+      "date": "18-Jan-24",
+      "link": "https://www.aasd.com.au/catalogue/240118las-fine-art/"
+  },
+  {
+      "auction_name": "Campbell House Contents Auction Online, Evans Hastings Valuers & Auctioneers , Canberra",
+      "date": "16-Jan-24",
+      "link": "https://www.aasd.com.au/catalogue/240116cae-campbell-house-contents-auction-online/"
+  }
 ]

@@ -2,7 +2,8 @@ import puppeteer from 'puppeteer';
 import fs from 'fs';
 import path from 'path';
 
-const url = "https://www.aasd.com.au/catalogue/250318gim-autumn-art-online/";
+const jsonAllLinks = JSON.parse(fs.readFileSync('./all-links.json', 'utf-8'));
+const urls = [...jsonAllLinks].filter(data => checkString(data.link));
 
 const browser = await puppeteer.launch({
     headless: false,
@@ -10,6 +11,12 @@ const browser = await puppeteer.launch({
 
 const page = await browser.newPage();
 await page.setViewport({ width: 1080, height: 1024 });
+
+function checkString(str) {
+    // Regular expression: looks for a digit (\d) followed by either "las" or "lam", followed by "-"
+    const pattern = /\d(mkp)-/;
+    return pattern.test(str);
+}
 
 const convertJsonToCsv = (jsonFilePath, csvFilePath) => {
     try {
@@ -59,63 +66,78 @@ const processAuctionItems = async () => {
         for (const item of allInfo) {
             const lotNum = Number(item.querySelector('td').innerHTML)
 
-            const artistTemp = item.querySelector('td:nth-child(3) > a').innerText.split(',')
-            const artist = (artistTemp[1].trim() + ' ' + artistTemp[0].trim()).trim()
+            let artistTemp = ""
+            let artistFirstName = ""
+            let artist = ""
+            if(item.querySelector('td:nth-child(3) > a').innerText.includes(',')) {
+                artistTemp = item.querySelector('td:nth-child(3) > a').innerText.split(',')
+                for(let i = 1; i < artistTemp.length; i++) {
+                    artistFirstName = artistFirstName + ' ' + artistTemp[i].trim()
+                }
+
+                artist = (artistFirstName.trim() + ' ' + artistTemp[0].trim()).trim()
+            }else {
+                artist = item.querySelector('td:nth-child(3) > a').innerText
+            }
+            
+            
 
             const artwork_name = item.querySelector('td:nth-child(3) > h3').innerText
 
-            const arbText = item.querySelector('td:nth-child(3)').innerText.split('\n')[2].split(',')
-            const size = arbText[arbText.length - 1]
-
             let medium = ""
             let signage = ""
-            let bFound = false
-            let i = 0
-            let indexOfOn = -1
-            while (bFound === false && i < arbText.length) {
+            let size = ""
+            if(item.querySelector('td:nth-child(3)').innerText.split('\n').length > 2) {
+                const arbText = item.querySelector('td:nth-child(3)').innerText.split('\n')[2].split(',')
+                size = arbText[arbText.length - 1]
 
-                if(arbText[i].includes(' on ')) {
-                    bFound = true
-                    indexOfOn = i
-                }
-                i++
-            }
-            
-            if(bFound === false) {
-                medium = arbText[0]
-                if(arbText.length > 2) {
-                    for(let i = 1; i < arbText.length - 1; i++){
-                        signage = signage + ' ' + arbText[i]
-                    }
-                } 
-            }else if(bFound === true && indexOfOn === 0) {
-                medium = arbText[0]
-                if(arbText.length > 2) {
-                    for(let i = 1; i < arbText.length - 1; i++){
-                        signage = signage + ' ' + arbText[i]
-                    }
-                }
-            }else if(bFound === true && indexOfOn > 0 && !arbText[indexOfOn - 1].includes('/')) {
-                for(let i = 0; i <= indexOfOn; i++) {
-                    medium = medium + ' ' + arbText[i]
-                }
-                if(arbText.length > 2) {
-                    for(let u = indexOfOn + 1; u < arbText.length - 1; u++){
-                        signage = signage + ' ' + arbText[u]
-                    }
-                }
-            }else if(bFound === true && indexOfOn > 0 && arbText[indexOfOn - 1].includes('/')) {
-                for(let i = 0; i < indexOfOn - 1; i++) {
-                    medium = medium + ' ' + arbText[i]
-                }
-                if(arbText.length > 2) {
-                    for(let u = indexOfOn - 1; u < arbText.length - 1; u++){
-                        signage = signage + ' ' + arbText[u]
-                    }
-                }
-            }
+                
+                let bFound = false
+                let i = 0
+                let indexOfOn = -1
+                while (bFound === false && i < arbText.length) {
 
-            const price = item.querySelector('td:nth-child(4)').innerText
+                    if(arbText[i].includes(' on ')) {
+                        bFound = true
+                        indexOfOn = i
+                    }
+                    i++
+                }
+                
+                if(bFound === false) {
+                    medium = arbText[0]
+                    if(arbText.length > 2) {
+                        for(let i = 1; i < arbText.length - 1; i++){
+                            signage = signage + ' ' + arbText[i]
+                        }
+                    } 
+                }else if(bFound === true && indexOfOn === 0) {
+                    medium = arbText[0]
+                    if(arbText.length > 2) {
+                        for(let i = 1; i < arbText.length - 1; i++){
+                            signage = signage + ' ' + arbText[i]
+                        }
+                    }
+                }else if(bFound === true && indexOfOn > 0 && !arbText[indexOfOn - 1].includes('/')) {
+                    for(let i = 0; i <= indexOfOn; i++) {
+                        medium = medium + ' ' + arbText[i]
+                    }
+                    if(arbText.length > 2) {
+                        for(let u = indexOfOn + 1; u < arbText.length - 1; u++){
+                            signage = signage + ' ' + arbText[u]
+                        }
+                    }
+                }else if(bFound === true && indexOfOn > 0 && arbText[indexOfOn - 1].includes('/')) {
+                    for(let i = 0; i < indexOfOn - 1; i++) {
+                        medium = medium + ' ' + arbText[i]
+                    }
+                    if(arbText.length > 2) {
+                        for(let u = indexOfOn - 1; u < arbText.length - 1; u++){
+                            signage = signage + ' ' + arbText[u]
+                        }
+                    }
+                }
+            }
 
             const infoObject = {
                 lot: lotNum,
@@ -124,7 +146,6 @@ const processAuctionItems = async () => {
                 medium: medium.trim(),
                 signage: signage.trim(),
                 size: size.trim(),
-                price: price,
             }
             provInfos.push(infoObject)
         }
@@ -135,28 +156,31 @@ const processAuctionItems = async () => {
 
 
 const init = async () => {
-    const allAuctionLinks = []; // Collect all item links in this array
-    const allItemInfo = [];
+    const allAuctionLinks = []; 
     
-        await page.goto(url,{timeout: 0});
+    for(const url of urls) {
+        await page.goto(url.link,{timeout: 0});
 
-        // Get pagination URLs
-        await page.waitForSelector('.pagination');
-        const res = await page.evaluate(() => {
+        await page.waitForSelector('table');
+        const res = await page.evaluate((link) => {
             const pagination = document.querySelector('.pagination');
-            const ul = pagination?.children[0];
-            const li = ul?.children[1];
+            if (!pagination) return [];
+            const numOfPages = Number(document.querySelector('.pagination').getAttribute('data-pages-total'))
 
-            if (!li) return []; // Return an empty array if li doesn't exist
-
-            // Extract href values from all <a> tags inside li
-            return Array.from(li.querySelectorAll('a')).map(a => a.href);
-        });
+            const arrPages = [];
+            for(let i = 1; i <= numOfPages; i++) {
+                if(i === 1) {
+                    arrPages.push(link)
+                }else {
+                    arrPages.push(link + `?page=${i}`)
+                } 
+            }
+            return arrPages
+        }, url.link); 
 
         // If there's only one page, `res` will be empty, so include the original URL
-        res.pop();
         if (res.length === 0) {
-            res.push(url);
+            res.push(url.link);
         }
 
         // Fetch items from each page in the auction
@@ -171,19 +195,28 @@ const init = async () => {
             // Append item links to the list with additional metadata
             allAuctionLinks.push(
                 ...auction_items.map(item => ({
-                    item
+                    "lot": item.lot,
+                    "title": item.title,
+                    "artist": item.artist,
+                    "medium": item.medium,
+                    "signage": item.signage,
+                    "size": item.size,
+                    "sale_date": url.date,
+                    "auction_house": "McKenzies Auctioneers",
+                    "auction_name": url.auction_name
                 }))
             );
         }
+    }
+        
 
-    // jsonFilePath = './auction-items-info.json';
-    // fs.writeFileSync(jsonFilePath, JSON.stringify(allAuctionLinks, null, 2));
-    // console.log('All info saved to auction-items-info.json');
+    const jsonFilePath = './auction-items-info.json';
+    fs.writeFileSync(jsonFilePath, JSON.stringify(allAuctionLinks, null, 2));
+    console.log('All info saved to auction-items-info.json');
 
-    // // Convert the JSON to CSV
-    // const csvFilePath = path.resolve('./auction-items-info.csv');
-    // convertJsonToCsv(jsonFilePath, csvFilePath);
-    console.log(allAuctionLinks)
+    // Convert the JSON to CSV
+    const csvFilePath = path.resolve('./auction-items-info.csv');
+    convertJsonToCsv(jsonFilePath, csvFilePath);
     
     await browser.close();
 };
